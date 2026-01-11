@@ -45,6 +45,9 @@ const RaceCard = ({ race, isToday }) => {
                 <Tv size={18} />
                 <span>Su: {race.tv.join(', ')}</span>
             </div>
+            {race.source && (
+                <div className="source-tag">Fonte: {race.source}</div>
+            )}
         </motion.div>
     );
 };
@@ -66,11 +69,13 @@ export default function App() {
         try {
             const extRaces = await fetchExternalRaces();
             if (extRaces.length > 0) {
-                // Merge with local mock data, avoiding duplicates
-                const combined = [...RACE_DATA];
-                extRaces.forEach(ext => {
-                    if (!combined.some(r => r.name === ext.name && r.date === ext.date)) {
-                        combined.push(ext);
+                // Merge, and prioritize external data for current year
+                const combined = [...extRaces];
+                RACE_DATA.forEach(local => {
+                    // Only keep local if not found in external
+                    const normalizedLocal = local.name.toLowerCase().replace(/[^a-z0-9]/g, '');
+                    if (!combined.some(r => r.name.toLowerCase().replace(/[^a-z0-9]/g, '') === normalizedLocal && r.date === local.date)) {
+                        combined.push({ ...local, source: 'Mock' });
                     }
                 });
                 setRaces(combined);
