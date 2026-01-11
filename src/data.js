@@ -6,7 +6,8 @@ export const RACE_DATA = [
         date: "2026-05-09",
         tv: ["RAI", "Eurosport", "Discovery+"],
         status: "Upcoming",
-        location: "Italy"
+        location: "Italy",
+        category: "GT"
     },
     {
         id: 2,
@@ -96,7 +97,8 @@ export const RACE_DATA = [
         date: "2026-03-21",
         tv: ["RAI", "Eurosport"],
         status: "Upcoming",
-        location: "Italy"
+        location: "Italy",
+        category: "Monument"
     },
     {
         id: 11,
@@ -105,7 +107,8 @@ export const RACE_DATA = [
         date: "2026-04-05",
         tv: ["RAI", "Eurosport"],
         status: "Upcoming",
-        location: "Belgium"
+        location: "Belgium",
+        category: "Monument"
     },
     {
         id: 12,
@@ -114,7 +117,8 @@ export const RACE_DATA = [
         date: "2026-04-12",
         tv: ["RAI", "Eurosport"],
         status: "Upcoming",
-        location: "France"
+        location: "France",
+        category: "Monument"
     },
     {
         id: 13,
@@ -141,7 +145,8 @@ export const RACE_DATA = [
         date: "2026-07-04",
         tv: ["RAI", "Eurosport", "Discovery+"],
         status: "Upcoming",
-        location: "France"
+        location: "France",
+        category: "GT"
     },
     {
         id: 16,
@@ -168,7 +173,8 @@ export const RACE_DATA = [
         date: "2026-10-10",
         tv: ["RAI", "Eurosport"],
         status: "Upcoming",
-        location: "Italy"
+        location: "Italy",
+        category: "Monument"
     },
     {
         id: 19,

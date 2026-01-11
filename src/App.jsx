@@ -1,5 +1,5 @@
 import React, { useState, useMemo, useEffect } from 'react';
-import { Bell, BellOff, Settings, Calendar, MapPin, Tv, Clock, LayoutGrid, List, RefreshCw, Coffee } from 'lucide-react';
+import { Bell, BellOff, Settings, Calendar, MapPin, Tv, Clock, LayoutGrid, List, RefreshCw, Coffee, Heart } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { RACE_DATA, DISCIPLINES } from './data';
 import { fetchExternalRaces } from './services/CalendarSyncService';
@@ -41,6 +41,12 @@ const RaceCard = ({ race, isToday }) => {
                 <MapPin size={16} />
                 <span>{race.location}</span>
             </div>
+            {race.startTime && (
+                <div className="race-meta">
+                    <Clock size={16} />
+                    <span>Inizio: {race.startTime}</span>
+                </div>
+            )}
             <div className="tv-info">
                 <Tv size={18} />
                 <span>Su: {race.tv.join(', ')}</span>
@@ -54,7 +60,7 @@ const RaceCard = ({ race, isToday }) => {
 
 export default function App() {
     const [filter, setFilter] = useState('all');
-    const [viewMode, setViewMode] = useState('upcoming'); // 'today', 'upcoming', 'calendar'
+    const [viewMode, setViewMode] = useState('upcoming'); // 'today', 'upcoming', 'calendar', 'prestige'
     const [notificationsEnabled, setNotificationsEnabled] = useState(false);
     const [showSettings, setShowSettings] = useState(false);
 
@@ -102,7 +108,9 @@ export default function App() {
         if (viewMode === 'today') {
             return list.filter(r => r.date === todayStr);
         } else if (viewMode === 'upcoming') {
-            return list.filter(r => r.date >= todayStr);
+            return list.filter(r => r.date >= todayStr).slice(0, 15);
+        } else if (viewMode === 'prestige') {
+            return list.filter(r => r.category === 'GT' || r.category === 'Monument');
         }
         return list;
     }, [filter, viewMode, races, todayStr]); // Added races and todayStr to dependencies
@@ -174,6 +182,12 @@ export default function App() {
                 >
                     <List size={18} /> Calendario
                 </button>
+                <button
+                    className={`tab-btn ${viewMode === 'prestige' ? 'active' : ''}`}
+                    onClick={() => setViewMode('prestige')}
+                >
+                    <Heart size={18} /> Prestigio
+                </button>
             </div>
 
             <div className="filters-bar">
@@ -216,6 +230,32 @@ export default function App() {
                             ))}
                         </AnimatePresence>
                     </motion.div>
+                )}
+                {viewMode === 'prestige' && (
+                    <div className="calendar-grid prestige-view">
+                        <div className="month-section" style={{ width: '100%', gridColumn: '1 / -1' }}>
+                            <h2 className="month-title">Grandi Giri</h2>
+                            <div className="race-list">
+                                {processedData.filter(r => r.category === 'GT').map(race => (
+                                    <RaceCard key={race.id} race={race} isToday={race.date === todayStr} />
+                                ))}
+                                {processedData.filter(r => r.category === 'GT').length === 0 && (
+                                    <div className="no-races glass-panel">Nessun Grande Giro trovato.</div>
+                                )}
+                            </div>
+                        </div>
+                        <div className="month-section" style={{ width: '100%', gridColumn: '1 / -1', marginTop: '2rem' }}>
+                            <h2 className="month-title">Classiche Monumento</h2>
+                            <div className="race-list">
+                                {processedData.filter(r => r.category === 'Monument').map(race => (
+                                    <RaceCard key={race.id} race={race} isToday={race.date === todayStr} />
+                                ))}
+                                {processedData.filter(r => r.category === 'Monument').length === 0 && (
+                                    <div className="no-races glass-panel">Nessuna Classica Monumento trovata.</div>
+                                )}
+                            </div>
+                        </div>
+                    </div>
                 )}
             </main>
 

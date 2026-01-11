@@ -48,8 +48,32 @@ export const fetchExternalRaces = async () => {
             vevents.forEach(vevent => {
                 const event = new ICAL.Event(vevent);
                 const name = event.summary;
-                const date = event.startDate.toJSDate().toISOString().split('T')[0];
+                const startDate = event.startDate.toJSDate();
+                const date = startDate.toISOString().split('T')[0];
+
+                // Extract time if it's not an all-day event
+                let startTime = null;
+                if (!event.startDate.isDate) {
+                    startTime = startDate.toLocaleTimeString('it-IT', { hour: '2-digit', minute: '2-digit' });
+                }
+
                 const key = `${normalize(name)}-${date}`;
+
+                // Tagging logic
+                let category = null;
+                const lowName = name.toLowerCase();
+                if (lowName.includes("giro d'italia") || lowName.includes("tour de france") || lowName.includes("vuelta a espana")) {
+                    category = "GT";
+                } else if (
+                    lowName.includes("milano-sanremo") ||
+                    lowName.includes("fiandre") ||
+                    lowName.includes("roubaix") ||
+                    lowName.includes("liegi") ||
+                    lowName.includes("lombardia") ||
+                    lowName.includes("monumento")
+                ) {
+                    category = "Monument";
+                }
 
                 if (!seen.has(key)) {
                     seen.add(key);
@@ -58,6 +82,8 @@ export const fetchExternalRaces = async () => {
                         name: name,
                         discipline: cal.discipline,
                         date: date,
+                        startTime: startTime,
+                        category: category,
                         location: event.location || "TBD",
                         tv: ["Eurosport", "Discovery+"],
                         status: "Upcoming",
