@@ -12,6 +12,12 @@ const CALENDARS = [
         url: "https://inrng.com/calendar/pro.ics",
         discipline: "road",
         source: "InRng"
+    },
+    {
+        name: "CX World Calendar",
+        url: "https://calendar.google.com/calendar/ical/7c9a924ea15c54f1553d17573c2df58075d949559ec87e484b0cf90fa78bbf6d%40group.calendar.google.com/public/basic.ics",
+        discipline: "cx",
+        source: "UCI/CX"
     }
 ];
 
