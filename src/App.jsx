@@ -117,7 +117,7 @@ export default function App() {
         <div className="app-container">
             <header>
                 <div style={{ display: 'flex', flexDirection: 'column' }}>
-                    <div className="logo">CiclismoPro</div>
+                    <div className="logo">Cycling Calendar</div>
                     {lastSync && (
                         <div className="sync-status">
                             Sincronizzato: {lastSync.toLocaleTimeString('it-IT')}
