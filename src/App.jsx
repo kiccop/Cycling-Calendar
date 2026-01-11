@@ -75,13 +75,17 @@ export default function App() {
         try {
             const extRaces = await fetchExternalRaces();
             if (extRaces.length > 0) {
-                // Merge, and prioritize external data for current year
                 const combined = [...extRaces];
                 RACE_DATA.forEach(local => {
-                    // Only keep local if not found in external
                     const normalizedLocal = local.name.toLowerCase().replace(/[^a-z0-9]/g, '');
-                    if (!combined.some(r => r.name.toLowerCase().replace(/[^a-z0-9]/g, '') === normalizedLocal && r.date === local.date)) {
-                        combined.push({ ...local, source: 'Mock' });
+                    const matchingExt = combined.find(r => r.name.toLowerCase().replace(/[^a-z0-9]/g, '') === normalizedLocal && r.date === local.date);
+
+                    if (!matchingExt) {
+                        combined.push({ ...local, source: 'Archivio' });
+                    } else {
+                        // Enforce local prestige data on synced races
+                        if (!matchingExt.category && local.category) matchingExt.category = local.category;
+                        if (!matchingExt.startTime && local.startTime) matchingExt.startTime = local.startTime;
                     }
                 });
                 setRaces(combined);
@@ -233,26 +237,21 @@ export default function App() {
                 )}
                 {viewMode === 'prestige' && (
                     <div className="calendar-grid prestige-view">
-                        <div className="month-section" style={{ width: '100%', gridColumn: '1 / -1' }}>
-                            <h2 className="month-title">Grandi Giri</h2>
+                        <div className="prestige-section">
+                            <h2 className="month-title">Grandi Giri 🏆</h2>
                             <div className="race-list">
                                 {processedData.filter(r => r.category === 'GT').map(race => (
                                     <RaceCard key={race.id} race={race} isToday={race.date === todayStr} />
                                 ))}
-                                {processedData.filter(r => r.category === 'GT').length === 0 && (
-                                    <div className="no-races glass-panel">Nessun Grande Giro trovato.</div>
-                                )}
                             </div>
                         </div>
-                        <div className="month-section" style={{ width: '100%', gridColumn: '1 / -1', marginTop: '2rem' }}>
-                            <h2 className="month-title">Classiche Monumento</h2>
+
+                        <div className="prestige-section">
+                            <h2 className="month-title">Le 5 Classiche Monumento 🏛️</h2>
                             <div className="race-list">
                                 {processedData.filter(r => r.category === 'Monument').map(race => (
                                     <RaceCard key={race.id} race={race} isToday={race.date === todayStr} />
                                 ))}
-                                {processedData.filter(r => r.category === 'Monument').length === 0 && (
-                                    <div className="no-races glass-panel">Nessuna Classica Monumento trovata.</div>
-                                )}
                             </div>
                         </div>
                     </div>

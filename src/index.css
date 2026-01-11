@@ -316,6 +316,16 @@ input:checked+.slider:before {
   transform: translateX(20px);
 }
 
+.prestige-section {
+  width: 100%;
+  grid-column: 1 / -1;
+  margin-bottom: 3rem;
+  background: rgba(255, 196, 0, 0.03);
+  padding: 1.5rem;
+  border-radius: 16px;
+  border: 1px solid rgba(255, 196, 0, 0.1);
+}
+
 .prestige-view .month-title {
   background: linear-gradient(90deg, #ffc400, #ff8c00);
   -webkit-background-clip: text;
