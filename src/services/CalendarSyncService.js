@@ -2,13 +2,13 @@ import ICAL from 'ical.js';
 
 const CALENDARS = [
     {
-        name: "UCI World Tour (InRng)",
+        name: "UCI Road Calendar",
         url: "https://calendar.google.com/calendar/ical/5c9dc1a627cf55f1653d17573c2df58075d949559ec87e484b0cf90fa78bbf6d%40group.calendar.google.com/public/basic.ics",
         discipline: "road",
-        source: "UCI/InRng"
+        source: "UCI"
     },
     {
-        name: "Pro Road (Secondary)",
+        name: "Pro Road (Backup)",
         url: "https://inrng.com/calendar/pro.ics",
         discipline: "road",
         source: "InRng"
@@ -17,7 +17,6 @@ const CALENDARS = [
 
 const PROXY = "https://corsproxy.io/?";
 
-// Simple normalization for deduplication
 const normalize = (str) => str.toLowerCase().replace(/[^a-z0-9]/g, '');
 
 export const fetchExternalRaces = async () => {
@@ -26,7 +25,13 @@ export const fetchExternalRaces = async () => {
 
     for (const cal of CALENDARS) {
         try {
-            const response = await fetch(PROXY + encodeURIComponent(cal.url));
+            // Use a timeout for each fetch to avoid hanging
+            const controller = new AbortController();
+            const timeoutId = setTimeout(() => controller.abort(), 8000);
+
+            const response = await fetch(PROXY + encodeURIComponent(cal.url), { signal: controller.signal });
+            clearTimeout(timeoutId);
+
             if (!response.ok) continue;
 
             const icsData = await response.text();

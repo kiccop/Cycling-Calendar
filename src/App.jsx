@@ -58,7 +58,7 @@ export default function App() {
     const [notificationsEnabled, setNotificationsEnabled] = useState(false);
     const [showSettings, setShowSettings] = useState(false);
 
-    const [races, setRaces] = useState(RACE_DATA);
+    const [races, setRaces] = useState(RACE_DATA.map(r => ({ ...r, source: 'Archivio' })));
     const [isSyncing, setIsSyncing] = useState(false);
     const [lastSync, setLastSync] = useState(null);
 
