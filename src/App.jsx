@@ -1,5 +1,5 @@
 import React, { useState, useMemo, useEffect } from 'react';
-import { Bell, BellOff, Settings, Calendar, MapPin, Tv, Clock, LayoutGrid, List, RefreshCw } from 'lucide-react';
+import { Bell, BellOff, Settings, Calendar, MapPin, Tv, Clock, LayoutGrid, List, RefreshCw, Coffee } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { RACE_DATA, DISCIPLINES } from './data';
 import { fetchExternalRaces } from './services/CalendarSyncService';
@@ -259,6 +259,32 @@ export default function App() {
                                 <p style={{ color: 'var(--text-secondary)', fontSize: '0.9rem' }}>
                                     Seleziona quali specialità desideri ricevere sul tuo dispositivo.
                                 </p>
+                                <div style={{
+                                    borderTop: '1px solid rgba(255,255,255,0.1)',
+                                    paddingTop: '1.5rem',
+                                    marginTop: '0.5rem',
+                                    display: 'flex',
+                                    flexDirection: 'column',
+                                    gap: '0.5rem'
+                                }}>
+                                    <span style={{ fontSize: '0.85rem', color: 'var(--text-secondary)' }}>Offri un caffè allo sviluppatore</span>
+                                    <button
+                                        className="filter-btn"
+                                        style={{
+                                            width: '100%',
+                                            background: 'rgba(255, 196, 0, 0.1)',
+                                            borderColor: 'rgba(255, 196, 0, 0.3)',
+                                            color: '#ffc400',
+                                            display: 'flex',
+                                            alignItems: 'center',
+                                            justifyContent: 'center',
+                                            gap: '0.5rem'
+                                        }}
+                                        onClick={() => window.open('https://www.paypal.com/donate/?hosted_button_id=JSNCEXQNEEC6G', '_blank')}
+                                    >
+                                        <Coffee size={18} /> Supporta il progetto
+                                    </button>
+                                </div>
                                 <button
                                     className="filter-btn active"
                                     style={{ width: '100%', marginTop: '1rem' }}
