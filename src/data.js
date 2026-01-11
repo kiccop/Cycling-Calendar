@@ -63,6 +63,15 @@ export const RACE_DATA = [
         location: "Zonhoven, Belgium"
     },
     {
+        id: 7.1,
+        name: "Campionati Italiani Ciclocross - Brugherio",
+        discipline: "cx",
+        date: "2026-01-11",
+        tv: ["RAI Sport", "YouTube"],
+        status: "Live soon",
+        location: "Brugherio (MB), Italy"
+    },
+    {
         id: 8,
         name: "Costa Blanca Bike Race - Stage 1",
         discipline: "mtb",
