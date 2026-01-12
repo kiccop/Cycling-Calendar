@@ -95,7 +95,10 @@ export const RACE_DATA = [
         startTime: "14:30",
         tv: ["RAI Sport", "YouTube"],
         status: "Live soon",
-        location: "Brugherio (MB), Italy"
+        location: "Brugherio (MB), Italy",
+        isWomen: false,
+        isUnder: false,
+        isMinor: false
     }
     // Add more if needed, but these are the main ones requested
 ];

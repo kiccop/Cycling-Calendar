@@ -64,6 +64,11 @@ export default function App() {
     const [notificationsEnabled, setNotificationsEnabled] = useState(false);
     const [showSettings, setShowSettings] = useState(false);
 
+    // Advanced Filters State
+    const [showWomen, setShowWomen] = useState(true);
+    const [showUnder, setShowUnder] = useState(false);
+    const [showMinor, setShowMinor] = useState(false);
+
     const [races, setRaces] = useState(RACE_DATA.map(r => ({ ...r, source: 'Archivio' })));
     const [isSyncing, setIsSyncing] = useState(false);
     const [lastSync, setLastSync] = useState(null);
@@ -107,6 +112,18 @@ export default function App() {
 
         if (filter !== 'all') {
             list = list.filter(r => r.discipline === filter);
+        }
+
+        // Apply Advanced Filters
+        if (!showWomen) {
+            list = list.filter(r => !r.isWomen);
+        }
+        if (!showUnder) {
+            list = list.filter(r => !r.isUnder);
+        }
+        if (!showMinor) {
+            // Hide minor races by default or when toggled off
+            list = list.filter(r => !r.isMinor);
         }
 
         if (viewMode === 'today') {
@@ -295,9 +312,32 @@ export default function App() {
                                         <span className="slider"></span>
                                     </label>
                                 </div>
-                                <p style={{ color: 'var(--text-secondary)', fontSize: '0.9rem' }}>
-                                    Seleziona quali specialità desideri ricevere sul tuo dispositivo.
-                                </p>
+                                <div style={{ borderTop: '1px solid rgba(255,255,255,0.1)', paddingTop: '1rem', marginTop: '0.5rem' }}>
+                                    <h3 style={{ fontSize: '1rem', marginBottom: '1rem', color: 'var(--text-secondary)' }}>Filtri Gare</h3>
+                                    <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+                                        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+                                            <span>Mostra Gare Donne</span>
+                                            <label className="switch">
+                                                <input type="checkbox" checked={showWomen} onChange={(e) => setShowWomen(e.target.checked)} />
+                                                <span className="slider"></span>
+                                            </label>
+                                        </div>
+                                        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+                                            <span>Mostra Gare Under 23</span>
+                                            <label className="switch">
+                                                <input type="checkbox" checked={showUnder} onChange={(e) => setShowUnder(e.target.checked)} />
+                                                <span className="slider"></span>
+                                            </label>
+                                        </div>
+                                        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+                                            <span>Mostra Gare Minori (1.2/2.2)</span>
+                                            <label className="switch">
+                                                <input type="checkbox" checked={showMinor} onChange={(e) => setShowMinor(e.target.checked)} />
+                                                <span className="slider"></span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
                                 <div style={{
                                     borderTop: '1px solid rgba(255,255,255,0.1)',
                                     paddingTop: '1.5rem',

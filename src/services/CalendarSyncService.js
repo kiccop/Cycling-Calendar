@@ -61,7 +61,27 @@ export const fetchExternalRaces = async () => {
 
                 // Tagging logic
                 let category = null;
+                let isWomen = false;
+                let isUnder = false;
+                let isMinor = false;
+
                 const lowName = name.toLowerCase();
+
+                // Detect Women's races
+                if (lowName.includes("women") || lowName.includes("(we)") || lowName.includes(".wwt") || lowName.includes("donne")) {
+                    isWomen = true;
+                }
+
+                // Detect Under-23 races
+                if (lowName.includes("under 23") || lowName.includes("(mu)") || lowName.includes("u23")) {
+                    isUnder = true;
+                }
+
+                // Detect Minor races (1.2, 2.2)
+                if (lowName.includes("1.2") || lowName.includes("2.2")) {
+                    isMinor = true;
+                }
+
                 if (lowName.includes("giro d'italia") || lowName.includes("tour de france") || lowName.includes("vuelta a espana")) {
                     category = "GT";
                 } else if (
@@ -84,6 +104,9 @@ export const fetchExternalRaces = async () => {
                         date: date,
                         startTime: startTime,
                         category: category,
+                        isWomen: isWomen,
+                        isUnder: isUnder,
+                        isMinor: isMinor,
                         location: event.location || "TBD",
                         tv: ["Eurosport", "Discovery+"],
                         status: "Upcoming",
