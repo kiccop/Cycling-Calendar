@@ -1,4 +1,5 @@
 import ICAL from 'ical.js';
+import pcsData2026 from '../data/pcs_races_2026.json';
 
 const CALENDARS = [
     {
@@ -58,6 +59,22 @@ const normalize = (str) => str.toLowerCase().replace(/[^a-z0-9]/g, '');
 export const fetchExternalRaces = async () => {
     const allEvents = [];
     const seen = new Set();
+
+    // 1. Load Pre-scraped PCS Data
+    if (pcsData2026 && Array.isArray(pcsData2026)) {
+        pcsData2026.forEach(race => {
+            const key = `${normalize(race.name)}-${race.date}`;
+            if (!seen.has(key)) {
+                seen.add(key);
+                allEvents.push({
+                    ...race,
+                    id: `pcs-${race.id}` // Ensure unique ID
+                });
+            }
+        });
+    }
+
+    // 2. Load Real-time iCal Calendars
 
     for (const cal of CALENDARS) {
         try {
