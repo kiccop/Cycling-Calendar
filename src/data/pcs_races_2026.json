@@ -15,6 +15,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "WorldTour",
         "source": "PCS (2.UWT)"
     },
     {
@@ -33,6 +34,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "WorldTour",
         "source": "PCS (1.UWT)"
     },
     {
@@ -51,6 +53,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "WorldTour",
         "source": "PCS (2.UWT)"
     },
     {
@@ -69,6 +72,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "WorldTour",
         "source": "PCS (1.UWT)"
     },
     {
@@ -88,6 +92,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "WorldTour",
         "source": "PCS (1.UWT)",
         "isItaly": true
     },
@@ -107,6 +112,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "WorldTour",
         "source": "PCS (2.UWT)"
     },
     {
@@ -126,6 +132,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "WorldTour",
         "source": "PCS (2.UWT)",
         "isItaly": true
     },
@@ -146,6 +153,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "WorldTour",
         "source": "PCS (1.UWT)",
         "isItaly": true
     },
@@ -165,6 +173,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "WorldTour",
         "source": "PCS (2.UWT)"
     },
     {
@@ -183,6 +192,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "WorldTour",
         "source": "PCS (1.UWT)"
     },
     {
@@ -201,6 +211,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "WorldTour",
         "source": "PCS (1.UWT)"
     },
     {
@@ -219,6 +230,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "WorldTour",
         "source": "PCS (1.UWT)"
     },
     {
@@ -237,6 +249,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "WorldTour",
         "source": "PCS (1.UWT)"
     },
     {
@@ -255,6 +268,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "WorldTour",
         "source": "PCS (1.UWT)"
     },
     {
@@ -273,6 +287,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "WorldTour",
         "source": "PCS (2.UWT)"
     },
     {
@@ -291,6 +306,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "WorldTour",
         "source": "PCS (1.UWT)"
     },
     {
@@ -309,6 +325,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "WorldTour",
         "source": "PCS (1.UWT)"
     },
     {
@@ -327,6 +344,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "WorldTour",
         "source": "PCS (1.UWT)"
     },
     {
@@ -345,6 +363,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "WorldTour",
         "source": "PCS (1.UWT)"
     },
     {
@@ -363,6 +382,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "WorldTour",
         "source": "PCS (2.UWT)"
     },
     {
@@ -381,6 +401,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "WorldTour",
         "source": "PCS (1.UWT)"
     },
     {
@@ -400,6 +421,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "WorldTour",
         "source": "PCS (2.UWT)",
         "isItaly": true
     },
@@ -419,6 +441,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "WorldTour",
         "source": "PCS (2.UWT)"
     },
     {
@@ -437,6 +460,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "WorldTour",
         "source": "PCS (1.UWT)"
     },
     {
@@ -455,6 +479,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "WorldTour",
         "source": "PCS (2.UWT)"
     },
     {
@@ -473,6 +498,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "WorldTour",
         "source": "PCS (2.UWT)"
     },
     {
@@ -491,6 +517,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "WorldTour",
         "source": "PCS (1.UWT)"
     },
     {
@@ -509,6 +536,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "WorldTour",
         "source": "PCS (2.UWT)"
     },
     {
@@ -527,6 +555,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "WorldTour",
         "source": "PCS (1.UWT)"
     },
     {
@@ -545,6 +574,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "WorldTour",
         "source": "PCS (2.UWT)"
     },
     {
@@ -563,6 +593,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "WorldTour",
         "source": "PCS (2.UWT)"
     },
     {
@@ -581,6 +612,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "WorldTour",
         "source": "PCS (1.UWT)"
     },
     {
@@ -599,6 +631,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "WorldTour",
         "source": "PCS (1.UWT)"
     },
     {
@@ -617,6 +650,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "WorldTour",
         "source": "PCS (1.UWT)"
     },
     {
@@ -636,6 +670,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "WorldTour",
         "source": "PCS (1.UWT)",
         "isItaly": true
     },
@@ -655,6 +690,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "WorldTour",
         "source": "PCS (2.UWT)"
     },
     {
@@ -673,6 +709,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "ProSeries",
         "source": "PCS (2.Pro)"
     },
     {
@@ -691,6 +728,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "ProSeries",
         "source": "PCS (1.Pro)"
     },
     {
@@ -710,6 +748,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "ProSeries",
         "source": "PCS (2.Pro)",
         "isItaly": true
     },
@@ -729,6 +768,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "ProSeries",
         "source": "PCS (1.Pro)"
     },
     {
@@ -747,6 +787,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "ProSeries",
         "source": "PCS (2.Pro)"
     },
     {
@@ -765,6 +806,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "ProSeries",
         "source": "PCS (1.Pro)"
     },
     {
@@ -783,6 +825,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "ProSeries",
         "source": "PCS (1.Pro)"
     },
     {
@@ -801,6 +844,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "ProSeries",
         "source": "PCS (2.Pro)"
     },
     {
@@ -819,6 +863,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "ProSeries",
         "source": "PCS (2.Pro)"
     },
     {
@@ -837,6 +882,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "ProSeries",
         "source": "PCS (1.Pro)"
     },
     {
@@ -855,6 +901,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "ProSeries",
         "source": "PCS (1.Pro)"
     },
     {
@@ -873,6 +920,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "ProSeries",
         "source": "PCS (1.Pro)"
     },
     {
@@ -892,6 +940,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "ProSeries",
         "source": "PCS (1.Pro)",
         "isItaly": true
     },
@@ -911,6 +960,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "ProSeries",
         "source": "PCS (1.Pro)"
     },
     {
@@ -930,6 +980,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "ProSeries",
         "source": "PCS (1.Pro)",
         "isItaly": true
     },
@@ -949,6 +1000,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "ProSeries",
         "source": "PCS (1.Pro)"
     },
     {
@@ -967,6 +1019,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "ProSeries",
         "source": "PCS (1.Pro)"
     },
     {
@@ -985,6 +1038,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "ProSeries",
         "source": "PCS (1.Pro)"
     },
     {
@@ -1003,6 +1057,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "ProSeries",
         "source": "PCS (2.Pro)"
     },
     {
@@ -1021,6 +1076,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "ProSeries",
         "source": "PCS (1.Pro)"
     },
     {
@@ -1039,6 +1095,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "ProSeries",
         "source": "PCS (2.Pro)"
     },
     {
@@ -1057,6 +1114,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "ProSeries",
         "source": "PCS (1.Pro)"
     },
     {
@@ -1075,6 +1133,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "ProSeries",
         "source": "PCS (2.Pro)"
     },
     {
@@ -1093,6 +1152,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "ProSeries",
         "source": "PCS (2.Pro)"
     },
     {
@@ -1111,6 +1171,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "ProSeries",
         "source": "PCS (1.Pro)"
     },
     {
@@ -1129,6 +1190,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "ProSeries",
         "source": "PCS (1.Pro)"
     },
     {
@@ -1147,6 +1209,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "ProSeries",
         "source": "PCS (2.Pro)"
     },
     {
@@ -1165,6 +1228,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "ProSeries",
         "source": "PCS (1.Pro)"
     },
     {
@@ -1183,6 +1247,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "ProSeries",
         "source": "PCS (2.Pro)"
     },
     {
@@ -1201,6 +1266,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "ProSeries",
         "source": "PCS (2.Pro)"
     },
     {
@@ -1219,6 +1285,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "ProSeries",
         "source": "PCS (2.Pro)"
     },
     {
@@ -1237,6 +1304,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "ProSeries",
         "source": "PCS (2.Pro)"
     },
     {
@@ -1255,6 +1323,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "ProSeries",
         "source": "PCS (1.Pro)"
     },
     {
@@ -1273,6 +1342,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "ProSeries",
         "source": "PCS (1.Pro)"
     },
     {
@@ -1291,6 +1361,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "ProSeries",
         "source": "PCS (2.Pro)"
     },
     {
@@ -1309,6 +1380,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "ProSeries",
         "source": "PCS (2.Pro)"
     },
     {
@@ -1327,6 +1399,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "ProSeries",
         "source": "PCS (2.Pro)"
     },
     {
@@ -1345,6 +1418,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "ProSeries",
         "source": "PCS (2.Pro)"
     },
     {
@@ -1363,6 +1437,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "ProSeries",
         "source": "PCS (2.Pro)"
     },
     {
@@ -1381,6 +1456,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "ProSeries",
         "source": "PCS (2.Pro)"
     },
     {
@@ -1399,6 +1475,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "ProSeries",
         "source": "PCS (2.Pro)"
     },
     {
@@ -1417,6 +1494,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "ProSeries",
         "source": "PCS (2.Pro)"
     },
     {
@@ -1436,6 +1514,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "ProSeries",
         "source": "PCS (2.Pro)",
         "isItaly": true
     },
@@ -1455,6 +1534,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "ProSeries",
         "source": "PCS (2.Pro)"
     },
     {
@@ -1473,6 +1553,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "ProSeries",
         "source": "PCS (1.Pro)"
     },
     {
@@ -1491,6 +1572,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "ProSeries",
         "source": "PCS (1.Pro)"
     },
     {
@@ -1509,6 +1591,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "ProSeries",
         "source": "PCS (1.Pro)"
     },
     {
@@ -1527,6 +1610,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "ProSeries",
         "source": "PCS (1.Pro)"
     },
     {
@@ -1545,6 +1629,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "ProSeries",
         "source": "PCS (2.Pro)"
     },
     {
@@ -1563,6 +1648,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "ProSeries",
         "source": "PCS (1.Pro)"
     },
     {
@@ -1581,6 +1667,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "ProSeries",
         "source": "PCS (2.Pro)"
     },
     {
@@ -1599,6 +1686,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "ProSeries",
         "source": "PCS (2.Pro)"
     },
     {
@@ -1617,6 +1705,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "ProSeries",
         "source": "PCS (1.Pro)"
     },
     {
@@ -1635,6 +1724,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "ProSeries",
         "source": "PCS (1.Pro)"
     },
     {
@@ -1653,6 +1743,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "ProSeries",
         "source": "PCS (1.Pro)"
     },
     {
@@ -1671,6 +1762,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "ProSeries",
         "source": "PCS (1.Pro)"
     },
     {
@@ -1690,6 +1782,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "ProSeries",
         "source": "PCS (1.Pro)",
         "isItaly": true
     },
@@ -1709,6 +1802,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "ProSeries",
         "source": "PCS (1.Pro)"
     },
     {
@@ -1727,6 +1821,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "ProSeries",
         "source": "PCS (1.Pro)"
     },
     {
@@ -1745,6 +1840,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "ProSeries",
         "source": "PCS (1.Pro)"
     },
     {
@@ -1763,6 +1859,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "ProSeries",
         "source": "PCS (1.Pro)"
     },
     {
@@ -1781,6 +1878,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.1)"
     },
     {
@@ -1799,6 +1897,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.1)"
     },
     {
@@ -1818,6 +1917,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.1)",
         "isItaly": true
     },
@@ -1837,6 +1937,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.1)"
     },
     {
@@ -1855,6 +1956,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.1)"
     },
     {
@@ -1873,6 +1975,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.1)"
     },
     {
@@ -1891,6 +1994,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.1)"
     },
     {
@@ -1909,6 +2013,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.1)"
     },
     {
@@ -1927,6 +2032,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.1)"
     },
     {
@@ -1945,6 +2051,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (2.1)"
     },
     {
@@ -1963,6 +2070,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.2)"
     },
     {
@@ -1981,6 +2089,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.1)"
     },
     {
@@ -1999,6 +2108,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (2.1)"
     },
     {
@@ -2017,6 +2127,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (2.1)"
     },
     {
@@ -2035,6 +2146,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.1)"
     },
     {
@@ -2053,6 +2165,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.1)"
     },
     {
@@ -2071,6 +2184,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.2)"
     },
     {
@@ -2089,6 +2203,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.1)"
     },
     {
@@ -2107,6 +2222,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (2.1)"
     },
     {
@@ -2125,6 +2241,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.1)"
     },
     {
@@ -2143,6 +2260,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.2)"
     },
     {
@@ -2161,6 +2279,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.1)"
     },
     {
@@ -2179,6 +2298,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.1)"
     },
     {
@@ -2197,6 +2317,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.2)"
     },
     {
@@ -2215,6 +2336,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.2)"
     },
     {
@@ -2233,6 +2355,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.2)"
     },
     {
@@ -2251,6 +2374,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.2)"
     },
     {
@@ -2269,6 +2393,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.2)"
     },
     {
@@ -2287,6 +2412,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.2)"
     },
     {
@@ -2305,6 +2431,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.2)"
     },
     {
@@ -2323,6 +2450,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.2)"
     },
     {
@@ -2341,6 +2469,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (2.2)"
     },
     {
@@ -2359,6 +2488,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (2.2)"
     },
     {
@@ -2377,6 +2507,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (2.2)"
     },
     {
@@ -2395,6 +2526,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.2)"
     },
     {
@@ -2413,6 +2545,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.2U)"
     },
     {
@@ -2431,6 +2564,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.1)"
     },
     {
@@ -2449,6 +2583,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": false,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.1)"
     },
     {
@@ -2467,6 +2602,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.1)"
     },
     {
@@ -2485,6 +2621,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.2)"
     },
     {
@@ -2503,6 +2640,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.2)"
     },
     {
@@ -2521,6 +2659,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.2)"
     },
     {
@@ -2539,6 +2678,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (2.1)"
     },
     {
@@ -2557,6 +2697,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (2.2)"
     },
     {
@@ -2575,6 +2716,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (2.2)"
     },
     {
@@ -2593,6 +2735,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.2)"
     },
     {
@@ -2611,6 +2754,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.2)"
     },
     {
@@ -2629,6 +2773,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.2)"
     },
     {
@@ -2647,6 +2792,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.1)"
     },
     {
@@ -2665,6 +2811,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.1)"
     },
     {
@@ -2683,6 +2830,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.2)"
     },
     {
@@ -2702,6 +2850,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.2)",
         "isItaly": true
     },
@@ -2721,6 +2870,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.1)"
     },
     {
@@ -2739,6 +2889,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.1)"
     },
     {
@@ -2757,6 +2908,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.2)"
     },
     {
@@ -2775,6 +2927,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.1)"
     },
     {
@@ -2793,6 +2946,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.2)"
     },
     {
@@ -2811,6 +2965,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.2U)"
     },
     {
@@ -2829,6 +2984,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.2U)"
     },
     {
@@ -2847,6 +3003,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.2U)"
     },
     {
@@ -2865,6 +3022,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.1)"
     },
     {
@@ -2883,6 +3041,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.2U)"
     },
     {
@@ -2901,6 +3060,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (2.2)"
     },
     {
@@ -2919,6 +3079,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (2.2)"
     },
     {
@@ -2938,6 +3099,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.1)",
         "isItaly": true
     },
@@ -2957,6 +3119,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.2)"
     },
     {
@@ -2975,6 +3138,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.2U)"
     },
     {
@@ -2993,6 +3157,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.2U)"
     },
     {
@@ -3011,6 +3176,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (2.1)"
     },
     {
@@ -3029,6 +3195,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.2)"
     },
     {
@@ -3047,6 +3214,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.2)"
     },
     {
@@ -3065,6 +3233,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (2.1)"
     },
     {
@@ -3083,6 +3252,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.1)"
     },
     {
@@ -3101,6 +3271,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (2.2)"
     },
     {
@@ -3119,6 +3290,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.1)"
     },
     {
@@ -3137,6 +3309,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (2.2)"
     },
     {
@@ -3152,9 +3325,10 @@
         ],
         "status": "Upcoming",
         "isWomen": false,
-        "isUnder": false,
+        "isUnder": true,
         "isMinor": true,
-        "isMenElite": true,
+        "isMenElite": false,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.2U)"
     },
     {
@@ -3173,6 +3347,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.1)"
     },
     {
@@ -3191,6 +3366,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.1)"
     },
     {
@@ -3209,6 +3385,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.2)"
     },
     {
@@ -3227,6 +3404,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (2.2)"
     },
     {
@@ -3245,6 +3423,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (2.1)"
     },
     {
@@ -3263,6 +3442,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.2U)"
     },
     {
@@ -3281,6 +3461,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (2.2)"
     },
     {
@@ -3299,6 +3480,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.1)"
     },
     {
@@ -3317,6 +3499,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.2)"
     },
     {
@@ -3335,6 +3518,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (2.1)"
     },
     {
@@ -3353,6 +3537,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.2)"
     },
     {
@@ -3371,6 +3556,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.2)"
     },
     {
@@ -3389,6 +3575,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.2)"
     },
     {
@@ -3407,6 +3594,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.2)"
     },
     {
@@ -3425,6 +3613,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.1)"
     },
     {
@@ -3443,6 +3632,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.2)"
     },
     {
@@ -3461,6 +3651,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.2)"
     },
     {
@@ -3479,6 +3670,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (2.1)"
     },
     {
@@ -3497,6 +3689,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.2)"
     },
     {
@@ -3515,6 +3708,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.2)"
     },
     {
@@ -3533,6 +3727,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.2)"
     },
     {
@@ -3551,6 +3746,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.2)"
     },
     {
@@ -3569,6 +3765,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.2U)"
     },
     {
@@ -3587,6 +3784,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.2U)"
     },
     {
@@ -3605,6 +3803,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (2.1)"
     },
     {
@@ -3623,6 +3822,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.2)"
     },
     {
@@ -3641,6 +3841,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.2)"
     },
     {
@@ -3659,6 +3860,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (2.1)"
     },
     {
@@ -3677,6 +3879,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (2.2U)"
     },
     {
@@ -3695,6 +3898,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.1)"
     },
     {
@@ -3713,6 +3917,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.1)"
     },
     {
@@ -3731,6 +3936,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.1)"
     },
     {
@@ -3749,6 +3955,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.1)"
     },
     {
@@ -3767,6 +3974,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.2)"
     },
     {
@@ -3785,6 +3993,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.2)"
     },
     {
@@ -3803,6 +4012,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (2.2)"
     },
     {
@@ -3821,6 +4031,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (2.2U)"
     },
     {
@@ -3839,6 +4050,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (2.1)"
     },
     {
@@ -3857,6 +4069,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.1)"
     },
     {
@@ -3876,6 +4089,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.2)",
         "isItaly": true
     },
@@ -3895,6 +4109,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.1)"
     },
     {
@@ -3913,6 +4128,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.2)"
     },
     {
@@ -3931,6 +4147,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.1)"
     },
     {
@@ -3949,6 +4166,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.2)"
     },
     {
@@ -3967,6 +4185,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (2.2)"
     },
     {
@@ -3985,6 +4204,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (2.2)"
     },
     {
@@ -4003,6 +4223,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (2.2U)"
     },
     {
@@ -4021,6 +4242,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.2)"
     },
     {
@@ -4039,6 +4261,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.1)"
     },
     {
@@ -4057,6 +4280,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (2.1)"
     },
     {
@@ -4075,6 +4299,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (2.2)"
     },
     {
@@ -4093,6 +4318,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (2.2)"
     },
     {
@@ -4111,6 +4337,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.1)"
     },
     {
@@ -4129,6 +4356,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.2)"
     },
     {
@@ -4147,6 +4375,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.2U)"
     },
     {
@@ -4165,6 +4394,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.2)"
     },
     {
@@ -4183,6 +4413,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (2.2)"
     },
     {
@@ -4201,6 +4432,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.1)"
     },
     {
@@ -4220,6 +4452,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (2.2U)",
         "isItaly": true
     },
@@ -4239,6 +4472,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.1)"
     },
     {
@@ -4257,6 +4491,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.1)"
     },
     {
@@ -4275,6 +4510,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.1)"
     },
     {
@@ -4294,6 +4530,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (2.1)",
         "isItaly": true
     },
@@ -4313,6 +4550,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (2.2)"
     },
     {
@@ -4331,6 +4569,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.1)"
     },
     {
@@ -4349,6 +4588,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.2)"
     },
     {
@@ -4367,6 +4607,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (2.1)"
     },
     {
@@ -4385,6 +4626,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (2.2)"
     },
     {
@@ -4403,6 +4645,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (2.1)"
     },
     {
@@ -4421,6 +4664,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.2)"
     },
     {
@@ -4439,6 +4683,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.2)"
     },
     {
@@ -4457,6 +4702,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.2)"
     },
     {
@@ -4475,6 +4721,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.2)"
     },
     {
@@ -4493,6 +4740,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (2.1)"
     },
     {
@@ -4511,6 +4759,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (2.2)"
     },
     {
@@ -4529,6 +4778,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.2)"
     },
     {
@@ -4547,6 +4797,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.2)"
     },
     {
@@ -4565,6 +4816,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (2.2U)"
     },
     {
@@ -4583,6 +4835,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.2)"
     },
     {
@@ -4601,6 +4854,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (2.2)"
     },
     {
@@ -4619,6 +4873,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.1)"
     },
     {
@@ -4637,6 +4892,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.1)"
     },
     {
@@ -4655,6 +4911,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.2)"
     },
     {
@@ -4673,6 +4930,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.2)"
     },
     {
@@ -4691,6 +4949,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (2.1)"
     },
     {
@@ -4709,6 +4968,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (2.2)"
     },
     {
@@ -4727,6 +4987,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (2.2)"
     },
     {
@@ -4745,6 +5006,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (2.2)"
     },
     {
@@ -4763,6 +5025,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.1)"
     },
     {
@@ -4781,6 +5044,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (2.2)"
     },
     {
@@ -4799,6 +5063,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (2.1)"
     },
     {
@@ -4817,6 +5082,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (2.2)"
     },
     {
@@ -4835,6 +5101,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.2U)"
     },
     {
@@ -4853,6 +5120,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.2)"
     },
     {
@@ -4871,6 +5139,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.2)"
     },
     {
@@ -4890,6 +5159,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.2U)",
         "isItaly": true
     },
@@ -4909,6 +5179,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.1)"
     },
     {
@@ -4927,6 +5198,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.2)"
     },
     {
@@ -4946,6 +5218,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (2.1)",
         "isItaly": true
     },
@@ -4965,6 +5238,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (2.2U)"
     },
     {
@@ -4983,6 +5257,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (2.2U)"
     },
     {
@@ -5001,6 +5276,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (2.2)"
     },
     {
@@ -5019,6 +5295,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.2)"
     },
     {
@@ -5037,6 +5314,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.2)"
     },
     {
@@ -5056,6 +5334,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (2.1)",
         "isItaly": true
     },
@@ -5075,6 +5354,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (2.2)"
     },
     {
@@ -5093,6 +5373,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.1)"
     },
     {
@@ -5111,6 +5392,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.2)"
     },
     {
@@ -5129,6 +5411,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.2)"
     },
     {
@@ -5147,6 +5430,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.2)"
     },
     {
@@ -5165,6 +5449,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (2.1)"
     },
     {
@@ -5183,6 +5468,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (2.1)"
     },
     {
@@ -5201,6 +5487,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (2.2)"
     },
     {
@@ -5219,6 +5506,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (2.2)"
     },
     {
@@ -5237,6 +5525,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (2.2)"
     },
     {
@@ -5255,6 +5544,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (2.2)"
     },
     {
@@ -5273,6 +5563,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (2.2U)"
     },
     {
@@ -5291,6 +5582,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (2.2)"
     },
     {
@@ -5309,6 +5601,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.2)"
     },
     {
@@ -5328,6 +5621,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.1)",
         "isItaly": true
     },
@@ -5347,6 +5641,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (2.2)"
     },
     {
@@ -5365,6 +5660,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (2.2)"
     },
     {
@@ -5383,6 +5679,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.1)"
     },
     {
@@ -5401,6 +5698,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.2)"
     },
     {
@@ -5419,6 +5717,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.1)"
     },
     {
@@ -5437,6 +5736,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.2)"
     },
     {
@@ -5455,6 +5755,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (2.1)"
     },
     {
@@ -5473,6 +5774,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (2.1)"
     },
     {
@@ -5491,6 +5793,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (2.2)"
     },
     {
@@ -5509,6 +5812,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.1)"
     },
     {
@@ -5527,6 +5831,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.1)"
     },
     {
@@ -5545,6 +5850,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.2)"
     },
     {
@@ -5563,6 +5869,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.1)"
     },
     {
@@ -5581,6 +5888,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.1)"
     },
     {
@@ -5599,6 +5907,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.1)"
     },
     {
@@ -5617,6 +5926,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (2.2)"
     },
     {
@@ -5635,6 +5945,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.1)"
     },
     {
@@ -5653,6 +5964,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.2)"
     },
     {
@@ -5671,6 +5983,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.2)"
     },
     {
@@ -5689,6 +6002,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.1)"
     },
     {
@@ -5707,6 +6021,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.2U)"
     },
     {
@@ -5726,6 +6041,7 @@
         "isUnder": true,
         "isMinor": true,
         "isMenElite": false,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.2U)",
         "isItaly": true
     },
@@ -5745,6 +6061,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": false,
+        "uciTour": "Europe Tour",
         "source": "PCS (CC)"
     },
     {
@@ -5763,6 +6080,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.1)"
     },
     {
@@ -5781,6 +6099,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.1)"
     },
     {
@@ -5799,6 +6118,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.1)"
     },
     {
@@ -5817,6 +6137,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.2)"
     },
     {
@@ -5835,6 +6156,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.2U)"
     },
     {
@@ -5853,6 +6175,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.1)"
     },
     {
@@ -5871,6 +6194,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (2.1)"
     },
     {
@@ -5889,6 +6213,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.2U)"
     },
     {
@@ -5907,6 +6232,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "Europe Tour",
         "source": "PCS (1.1)"
     },
     {
@@ -5925,6 +6251,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": false,
+        "uciTour": "Women WorldTour",
         "source": "PCS (2.WWT)"
     },
     {
@@ -5943,6 +6270,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": false,
+        "uciTour": "Women WorldTour",
         "source": "PCS (1.WWT)"
     },
     {
@@ -5961,6 +6289,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": false,
+        "uciTour": "Women WorldTour",
         "source": "PCS (2.WWT)"
     },
     {
@@ -5979,6 +6308,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": false,
+        "uciTour": "Women WorldTour",
         "source": "PCS (1.WWT)"
     },
     {
@@ -5998,6 +6328,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": false,
+        "uciTour": "Women WorldTour",
         "source": "PCS (1.WWT)",
         "isItaly": true
     },
@@ -6017,6 +6348,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": false,
+        "uciTour": "Women WorldTour",
         "source": "PCS (1.WWT)"
     },
     {
@@ -6036,6 +6368,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": false,
+        "uciTour": "Women WorldTour",
         "source": "PCS (1.WWT)",
         "isItaly": true
     },
@@ -6055,6 +6388,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": false,
+        "uciTour": "Women WorldTour",
         "source": "PCS (1.WWT)"
     },
     {
@@ -6073,6 +6407,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": false,
+        "uciTour": "Women WorldTour",
         "source": "PCS (1.WWT)"
     },
     {
@@ -6091,6 +6426,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": false,
+        "uciTour": "Women WorldTour",
         "source": "PCS (1.WWT)"
     },
     {
@@ -6109,6 +6445,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": false,
+        "uciTour": "Women WorldTour",
         "source": "PCS (1.WWT)"
     },
     {
@@ -6127,6 +6464,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": false,
+        "uciTour": "Women WorldTour",
         "source": "PCS (1.WWT)"
     },
     {
@@ -6145,6 +6483,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": false,
+        "uciTour": "Women WorldTour",
         "source": "PCS (1.WWT)"
     },
     {
@@ -6163,6 +6502,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": false,
+        "uciTour": "Women WorldTour",
         "source": "PCS (1.WWT)"
     },
     {
@@ -6181,6 +6521,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": false,
+        "uciTour": "Women WorldTour",
         "source": "PCS (1.WWT)"
     },
     {
@@ -6199,6 +6540,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": false,
+        "uciTour": "Women WorldTour",
         "source": "PCS (2.WWT)"
     },
     {
@@ -6217,6 +6559,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": false,
+        "uciTour": "Women WorldTour",
         "source": "PCS (2.WWT)"
     },
     {
@@ -6235,6 +6578,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": false,
+        "uciTour": "Women WorldTour",
         "source": "PCS (2.WWT)"
     },
     {
@@ -6254,6 +6598,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": false,
+        "uciTour": "Women WorldTour",
         "source": "PCS (2.WWT)",
         "isItaly": true
     },
@@ -6273,6 +6618,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": false,
+        "uciTour": "Women WorldTour",
         "source": "PCS (1.WWT)"
     },
     {
@@ -6291,6 +6637,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": false,
+        "uciTour": "Women WorldTour",
         "source": "PCS (2.WWT)"
     },
     {
@@ -6309,6 +6656,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": false,
+        "uciTour": "Women WorldTour",
         "source": "PCS (2.WWT)"
     },
     {
@@ -6328,6 +6676,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": false,
+        "uciTour": "Women WorldTour",
         "source": "PCS (2.WWT)",
         "isItaly": true
     },
@@ -6347,6 +6696,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": false,
+        "uciTour": "Women WorldTour",
         "source": "PCS (1.WWT)"
     },
     {
@@ -6365,6 +6715,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": false,
+        "uciTour": "Women WorldTour",
         "source": "PCS (2.WWT)"
     },
     {
@@ -6383,6 +6734,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": false,
+        "uciTour": "Women WorldTour",
         "source": "PCS (2.WWT)"
     },
     {
@@ -6401,6 +6753,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": false,
+        "uciTour": "Women WorldTour",
         "source": "PCS (1.WWT)"
     },
     {
@@ -6419,6 +6772,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": false,
+        "uciTour": "Women Elite",
         "source": "PCS (2.1)"
     },
     {
@@ -6437,6 +6791,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": false,
+        "uciTour": "Women Elite",
         "source": "PCS (1.1)"
     },
     {
@@ -6455,6 +6810,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": false,
+        "uciTour": "Women Elite",
         "source": "PCS (1.Pro)"
     },
     {
@@ -6473,6 +6829,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": false,
+        "uciTour": "Women Elite",
         "source": "PCS (1.1)"
     },
     {
@@ -6491,6 +6848,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": false,
+        "uciTour": "Women Elite",
         "source": "PCS (1.1)"
     },
     {
@@ -6509,6 +6867,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": false,
+        "uciTour": "Women Elite",
         "source": "PCS (1.1)"
     },
     {
@@ -6527,6 +6886,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": false,
+        "uciTour": "Women Elite",
         "source": "PCS (1.1)"
     },
     {
@@ -6545,6 +6905,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": false,
+        "uciTour": "Women Elite",
         "source": "PCS (1.1)"
     },
     {
@@ -6563,6 +6924,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": false,
+        "uciTour": "Women Elite",
         "source": "PCS (1.1)"
     },
     {
@@ -6581,6 +6943,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": false,
+        "uciTour": "Women Elite",
         "source": "PCS (1.Pro)"
     },
     {
@@ -6599,6 +6962,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": false,
+        "uciTour": "Women Elite",
         "source": "PCS (1.1)"
     },
     {
@@ -6617,6 +6981,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": false,
+        "uciTour": "Women Elite",
         "source": "PCS (1.1)"
     },
     {
@@ -6635,6 +7000,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": false,
+        "uciTour": "Women Elite",
         "source": "PCS (2.1)"
     },
     {
@@ -6653,6 +7019,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": false,
+        "uciTour": "Women Elite",
         "source": "PCS (CC)"
     },
     {
@@ -6671,6 +7038,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": false,
+        "uciTour": "Women Elite",
         "source": "PCS (CC)"
     },
     {
@@ -6689,6 +7057,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": false,
+        "uciTour": "Women Elite",
         "source": "PCS (CC)"
     },
     {
@@ -6708,6 +7077,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": false,
+        "uciTour": "Women Elite",
         "source": "PCS (1.Pro)",
         "isItaly": true
     },
@@ -6727,6 +7097,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": false,
+        "uciTour": "Women Elite",
         "source": "PCS (CC)"
     },
     {
@@ -6746,6 +7117,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": false,
+        "uciTour": "Women Elite",
         "source": "PCS (2.Pro)",
         "isItaly": true
     },
@@ -6765,6 +7137,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": false,
+        "uciTour": "Women Elite",
         "source": "PCS (1.2)"
     },
     {
@@ -6783,6 +7156,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": false,
+        "uciTour": "Women Elite",
         "source": "PCS (1.Pro)"
     },
     {
@@ -6801,6 +7175,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": false,
+        "uciTour": "Women Elite",
         "source": "PCS (1.1)"
     },
     {
@@ -6819,6 +7194,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": false,
+        "uciTour": "Women Elite",
         "source": "PCS (1.1)"
     },
     {
@@ -6837,6 +7213,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": false,
+        "uciTour": "Women Elite",
         "source": "PCS (2.2)"
     },
     {
@@ -6855,6 +7232,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": false,
+        "uciTour": "Women Elite",
         "source": "PCS (1.2)"
     },
     {
@@ -6873,6 +7251,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": false,
+        "uciTour": "Women Elite",
         "source": "PCS (2.1)"
     },
     {
@@ -6891,6 +7270,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": false,
+        "uciTour": "Women Elite",
         "source": "PCS (1.2)"
     },
     {
@@ -6909,6 +7289,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": false,
+        "uciTour": "Women Elite",
         "source": "PCS (1.1)"
     },
     {
@@ -6927,6 +7308,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": false,
+        "uciTour": "Women Elite",
         "source": "PCS (1.2)"
     },
     {
@@ -6945,6 +7327,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": false,
+        "uciTour": "Women Elite",
         "source": "PCS (2.2)"
     },
     {
@@ -6963,6 +7346,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": false,
+        "uciTour": "Women Elite",
         "source": "PCS (1.Pro)"
     },
     {
@@ -6981,6 +7365,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": false,
+        "uciTour": "Women Elite",
         "source": "PCS (1.Pro)"
     },
     {
@@ -6999,6 +7384,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": false,
+        "uciTour": "Women Elite",
         "source": "PCS (1.1)"
     },
     {
@@ -7017,6 +7403,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": false,
+        "uciTour": "Women Elite",
         "source": "PCS (2.1)"
     },
     {
@@ -7035,6 +7422,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": false,
+        "uciTour": "Women Elite",
         "source": "PCS (1.2)"
     },
     {
@@ -7053,6 +7441,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": false,
+        "uciTour": "Women Elite",
         "source": "PCS (1.1)"
     },
     {
@@ -7071,6 +7460,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": false,
+        "uciTour": "Women Elite",
         "source": "PCS (1.Pro)"
     },
     {
@@ -7089,6 +7479,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": false,
+        "uciTour": "Women Elite",
         "source": "PCS (1.1)"
     },
     {
@@ -7107,6 +7498,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": false,
+        "uciTour": "Women Elite",
         "source": "PCS (1.Pro)"
     },
     {
@@ -7125,6 +7517,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": false,
+        "uciTour": "Women Elite",
         "source": "PCS (1.1)"
     },
     {
@@ -7143,6 +7536,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": false,
+        "uciTour": "Women Elite",
         "source": "PCS (1.1)"
     },
     {
@@ -7161,6 +7555,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": false,
+        "uciTour": "Women Elite",
         "source": "PCS (2.2)"
     },
     {
@@ -7179,6 +7574,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": false,
+        "uciTour": "Women Elite",
         "source": "PCS (2.1)"
     },
     {
@@ -7197,6 +7593,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": false,
+        "uciTour": "Women Elite",
         "source": "PCS (1.1)"
     },
     {
@@ -7215,6 +7612,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": false,
+        "uciTour": "Women Elite",
         "source": "PCS (1.1)"
     },
     {
@@ -7233,6 +7631,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": false,
+        "uciTour": "Women Elite",
         "source": "PCS (2.2)"
     },
     {
@@ -7251,6 +7650,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": false,
+        "uciTour": "Women Elite",
         "source": "PCS (2.2)"
     },
     {
@@ -7269,6 +7669,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": false,
+        "uciTour": "Women Elite",
         "source": "PCS (2.2)"
     },
     {
@@ -7287,6 +7688,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": false,
+        "uciTour": "Women Elite",
         "source": "PCS (1.1)"
     },
     {
@@ -7305,6 +7707,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": false,
+        "uciTour": "Women Elite",
         "source": "PCS (1.1)"
     },
     {
@@ -7323,6 +7726,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": false,
+        "uciTour": "Women Elite",
         "source": "PCS (1.2)"
     },
     {
@@ -7341,6 +7745,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": false,
+        "uciTour": "Women Elite",
         "source": "PCS (1.1)"
     },
     {
@@ -7359,6 +7764,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": false,
+        "uciTour": "Women Elite",
         "source": "PCS (1.1)"
     },
     {
@@ -7377,6 +7783,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": false,
+        "uciTour": "Women Elite",
         "source": "PCS (1.1)"
     },
     {
@@ -7395,6 +7802,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": false,
+        "uciTour": "Women Elite",
         "source": "PCS (1.1)"
     },
     {
@@ -7413,6 +7821,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": false,
+        "uciTour": "Women Elite",
         "source": "PCS (1.Pro)"
     },
     {
@@ -7431,6 +7840,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": false,
+        "uciTour": "Women Elite",
         "source": "PCS (2.2)"
     },
     {
@@ -7449,6 +7859,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": false,
+        "uciTour": "Women Elite",
         "source": "PCS (2.2)"
     },
     {
@@ -7467,6 +7878,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": false,
+        "uciTour": "Women Elite",
         "source": "PCS (1.1)"
     },
     {
@@ -7485,6 +7897,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": false,
+        "uciTour": "Women Elite",
         "source": "PCS (1.1)"
     },
     {
@@ -7503,6 +7916,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": false,
+        "uciTour": "Women Elite",
         "source": "PCS (1.1)"
     },
     {
@@ -7521,6 +7935,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": false,
+        "uciTour": "Women Elite",
         "source": "PCS (1.Pro)"
     },
     {
@@ -7539,6 +7954,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": false,
+        "uciTour": "Women Elite",
         "source": "PCS (1.1)"
     },
     {
@@ -7557,6 +7973,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": false,
+        "uciTour": "Women Elite",
         "source": "PCS (1.2)"
     },
     {
@@ -7575,6 +7992,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": false,
+        "uciTour": "Women Elite",
         "source": "PCS (2.1)"
     },
     {
@@ -7593,6 +8011,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": false,
+        "uciTour": "Women Elite",
         "source": "PCS (2.Pro)"
     },
     {
@@ -7611,6 +8030,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": false,
+        "uciTour": "Women Elite",
         "source": "PCS (2.2)"
     },
     {
@@ -7629,6 +8049,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": false,
+        "uciTour": "Women Elite",
         "source": "PCS (1.2)"
     },
     {
@@ -7647,6 +8068,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": false,
+        "uciTour": "Women Elite",
         "source": "PCS (1.1)"
     },
     {
@@ -7665,6 +8087,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": false,
+        "uciTour": "Women Elite",
         "source": "PCS (1.1)"
     },
     {
@@ -7683,6 +8106,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": false,
+        "uciTour": "Women Elite",
         "source": "PCS (2.Pro)"
     },
     {
@@ -7701,6 +8125,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": false,
+        "uciTour": "Women Elite",
         "source": "PCS (1.1)"
     },
     {
@@ -7719,6 +8144,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": false,
+        "uciTour": "Women Elite",
         "source": "PCS (1.1)"
     },
     {
@@ -7737,6 +8163,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": false,
+        "uciTour": "Women Elite",
         "source": "PCS (2.2)"
     },
     {
@@ -7755,6 +8182,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": false,
+        "uciTour": "Women Elite",
         "source": "PCS (2.1)"
     },
     {
@@ -7773,6 +8201,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": false,
+        "uciTour": "Women Elite",
         "source": "PCS (1.Pro)"
     },
     {
@@ -7791,6 +8220,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": false,
+        "uciTour": "Women Elite",
         "source": "PCS (NC)"
     },
     {
@@ -7809,6 +8239,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": false,
+        "uciTour": "Women Elite",
         "source": "PCS (NC)"
     },
     {
@@ -7827,6 +8258,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": false,
+        "uciTour": "Women Elite",
         "source": "PCS (2.2)"
     },
     {
@@ -7845,6 +8277,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": false,
+        "uciTour": "Women Elite",
         "source": "PCS (1.1)"
     },
     {
@@ -7863,6 +8296,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": false,
+        "uciTour": "Women Elite",
         "source": "PCS (1.2)"
     },
     {
@@ -7881,6 +8315,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": false,
+        "uciTour": "Women Elite",
         "source": "PCS (1.2)"
     },
     {
@@ -7899,6 +8334,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": false,
+        "uciTour": "Women Elite",
         "source": "PCS (1.2)"
     },
     {
@@ -7917,6 +8353,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": false,
+        "uciTour": "Women Elite",
         "source": "PCS (2.1)"
     },
     {
@@ -7935,6 +8372,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": false,
+        "uciTour": "Women Elite",
         "source": "PCS (1.1)"
     },
     {
@@ -7953,6 +8391,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": false,
+        "uciTour": "Women Elite",
         "source": "PCS (2.2)"
     },
     {
@@ -7972,6 +8411,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": false,
+        "uciTour": "Women Elite",
         "source": "PCS (1.1)",
         "isItaly": true
     },
@@ -7991,6 +8431,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": false,
+        "uciTour": "Women Elite",
         "source": "PCS (2.Pro)"
     },
     {
@@ -8009,6 +8450,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": false,
+        "uciTour": "Women Elite",
         "source": "PCS (2.2)"
     },
     {
@@ -8027,6 +8469,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": false,
+        "uciTour": "Women Elite",
         "source": "PCS (1.1)"
     },
     {
@@ -8045,6 +8488,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": false,
+        "uciTour": "Women Elite",
         "source": "PCS (2.2)"
     },
     {
@@ -8063,6 +8507,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": false,
+        "uciTour": "Women Elite",
         "source": "PCS (1.1)"
     },
     {
@@ -8081,6 +8526,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": false,
+        "uciTour": "Women Elite",
         "source": "PCS (1.Pro)"
     },
     {
@@ -8099,6 +8545,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": false,
+        "uciTour": "Women Elite",
         "source": "PCS (1.1)"
     },
     {
@@ -8117,6 +8564,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": false,
+        "uciTour": "Women Elite",
         "source": "PCS (1.1)"
     },
     {
@@ -8136,6 +8584,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": false,
+        "uciTour": "Women Elite",
         "source": "PCS (2.2)",
         "isItaly": true
     },
@@ -8155,6 +8604,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": false,
+        "uciTour": "Women Elite",
         "source": "PCS (1.1)"
     },
     {
@@ -8173,6 +8623,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": false,
+        "uciTour": "Women Elite",
         "source": "PCS (2.1)"
     },
     {
@@ -8191,6 +8642,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": false,
+        "uciTour": "Women Elite",
         "source": "PCS (1.1)"
     },
     {
@@ -8209,6 +8661,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": false,
+        "uciTour": "Women Elite",
         "source": "PCS (1.PRO)"
     },
     {
@@ -8227,6 +8680,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": false,
+        "uciTour": "Women Elite",
         "source": "PCS (1.1)"
     },
     {
@@ -8245,6 +8699,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": false,
+        "uciTour": "Women Elite",
         "source": "PCS (2.1)"
     },
     {
@@ -8263,6 +8718,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": false,
+        "uciTour": "Women Elite",
         "source": "PCS (1.Pro)"
     },
     {
@@ -8281,6 +8737,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": false,
+        "uciTour": "Women Elite",
         "source": "PCS (1.Pro)"
     },
     {
@@ -8299,6 +8756,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": false,
+        "uciTour": "Women Elite",
         "source": "PCS (1.1)"
     },
     {
@@ -8317,6 +8775,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": false,
+        "uciTour": "Women Elite",
         "source": "PCS (1.1)"
     },
     {
@@ -8335,6 +8794,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": false,
+        "uciTour": "Women Elite",
         "source": "PCS (1.1)"
     },
     {
@@ -8353,6 +8813,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": false,
+        "uciTour": "Women Elite",
         "source": "PCS (2.2)"
     },
     {
@@ -8371,6 +8832,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": false,
+        "uciTour": "Women Elite",
         "source": "PCS (1.2)"
     },
     {
@@ -8389,6 +8851,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": false,
+        "uciTour": "Women Elite",
         "source": "PCS (2.2)"
     },
     {
@@ -8407,6 +8870,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": false,
+        "uciTour": "Women Elite",
         "source": "PCS (1.Pro)"
     },
     {
@@ -8425,6 +8889,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": false,
+        "uciTour": "Women Elite",
         "source": "PCS (1.Pro)"
     },
     {
@@ -8443,6 +8908,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": false,
+        "uciTour": "Women Elite",
         "source": "PCS (1.1)"
     },
     {
@@ -8461,6 +8927,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": false,
+        "uciTour": "Women Elite",
         "source": "PCS (1.1)"
     },
     {
@@ -8479,6 +8946,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": false,
+        "uciTour": "Women Elite",
         "source": "PCS (2.1)"
     },
     {
@@ -8497,6 +8965,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": false,
+        "uciTour": "Women Elite",
         "source": "PCS (1.1)"
     },
     {
@@ -8515,6 +8984,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": false,
+        "uciTour": "Women Elite",
         "source": "PCS (1.1)"
     },
     {
@@ -8533,6 +9003,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "America Tour",
         "source": "PCS (2.2)"
     },
     {
@@ -8551,6 +9022,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "America Tour",
         "source": "PCS (2.1)"
     },
     {
@@ -8569,6 +9041,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "America Tour",
         "source": "PCS (2.2)"
     },
     {
@@ -8587,6 +9060,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "America Tour",
         "source": "PCS (2.2)"
     },
     {
@@ -8605,6 +9079,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "America Tour",
         "source": "PCS (2.2)"
     },
     {
@@ -8623,6 +9098,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "America Tour",
         "source": "PCS (1.2)"
     },
     {
@@ -8641,6 +9117,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "America Tour",
         "source": "PCS (2.2)"
     },
     {
@@ -8659,6 +9136,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "America Tour",
         "source": "PCS (2.2)"
     },
     {
@@ -8677,6 +9155,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "America Tour",
         "source": "PCS (1.2)"
     },
     {
@@ -8695,6 +9174,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "America Tour",
         "source": "PCS (2.2)"
     },
     {
@@ -8713,6 +9193,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "America Tour",
         "source": "PCS (1.2)"
     },
     {
@@ -8731,6 +9212,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "America Tour",
         "source": "PCS (2.2)"
     },
     {
@@ -8749,6 +9231,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "America Tour",
         "source": "PCS (1.2)"
     },
     {
@@ -8767,6 +9250,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "America Tour",
         "source": "PCS (2.2)"
     },
     {
@@ -8785,6 +9269,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "America Tour",
         "source": "PCS (2.2)"
     },
     {
@@ -8803,6 +9288,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "America Tour",
         "source": "PCS (1.1)"
     },
     {
@@ -8821,6 +9307,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "America Tour",
         "source": "PCS (2.2)"
     },
     {
@@ -8839,6 +9326,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Asia Tour",
         "source": "PCS (2.2)"
     },
     {
@@ -8857,6 +9345,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Asia Tour",
         "source": "PCS (2.2)"
     },
     {
@@ -8875,6 +9364,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": false,
+        "uciTour": "Asia Tour",
         "source": "PCS (CC)"
     },
     {
@@ -8893,6 +9383,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": false,
+        "uciTour": "Asia Tour",
         "source": "PCS (CC)"
     },
     {
@@ -8911,6 +9402,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": false,
+        "uciTour": "Asia Tour",
         "source": "PCS (CC)"
     },
     {
@@ -8929,6 +9421,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": false,
+        "uciTour": "Asia Tour",
         "source": "PCS (CC)"
     },
     {
@@ -8947,6 +9440,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": false,
+        "uciTour": "Asia Tour",
         "source": "PCS (CC)"
     },
     {
@@ -8965,6 +9459,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": false,
+        "uciTour": "Asia Tour",
         "source": "PCS (CC)"
     },
     {
@@ -8983,6 +9478,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Asia Tour",
         "source": "PCS (2.2)"
     },
     {
@@ -9001,6 +9497,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "Asia Tour",
         "source": "PCS (2.1)"
     },
     {
@@ -9019,6 +9516,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "Asia Tour",
         "source": "PCS (2.1)"
     },
     {
@@ -9037,6 +9535,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Asia Tour",
         "source": "PCS (2.2)"
     },
     {
@@ -9055,6 +9554,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Asia Tour",
         "source": "PCS (2.2)"
     },
     {
@@ -9073,6 +9573,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Asia Tour",
         "source": "PCS (2.2)"
     },
     {
@@ -9091,6 +9592,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Asia Tour",
         "source": "PCS (2.2)"
     },
     {
@@ -9109,6 +9611,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Asia Tour",
         "source": "PCS (2.2)"
     },
     {
@@ -9127,6 +9630,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Asia Tour",
         "source": "PCS (2.2)"
     },
     {
@@ -9145,6 +9649,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Asia Tour",
         "source": "PCS (2.2)"
     },
     {
@@ -9163,6 +9668,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Asia Tour",
         "source": "PCS (2.2)"
     },
     {
@@ -9181,6 +9687,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "Asia Tour",
         "source": "PCS (2.1)"
     },
     {
@@ -9199,6 +9706,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Asia Tour",
         "source": "PCS (2.2)"
     },
     {
@@ -9217,6 +9725,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "Asia Tour",
         "source": "PCS (2.1)"
     },
     {
@@ -9235,6 +9744,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Asia Tour",
         "source": "PCS (2.2)"
     },
     {
@@ -9253,6 +9763,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Asia Tour",
         "source": "PCS (1.2)"
     },
     {
@@ -9271,6 +9782,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Asia Tour",
         "source": "PCS (2.2)"
     },
     {
@@ -9289,6 +9801,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "Asia Tour",
         "source": "PCS (2.1)"
     },
     {
@@ -9307,6 +9820,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "Asia Tour",
         "source": "PCS (2.1)"
     },
     {
@@ -9325,6 +9839,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Asia Tour",
         "source": "PCS (2.2)"
     },
     {
@@ -9343,6 +9858,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "Asia Tour",
         "source": "PCS (2.1)"
     },
     {
@@ -9362,6 +9878,7 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Asia Tour",
         "source": "PCS (1.2)",
         "isItaly": true
     },
@@ -9381,6 +9898,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "Asia Tour",
         "source": "PCS (2.1)"
     },
     {
@@ -9399,6 +9917,7 @@
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
+        "uciTour": "Asia Tour",
         "source": "PCS (1.1)"
     },
     {
@@ -9417,6 +9936,216 @@
         "isUnder": false,
         "isMinor": true,
         "isMenElite": true,
+        "uciTour": "Asia Tour",
         "source": "PCS (2.2)"
+    },
+    {
+        "id": "pcs-520",
+        "name": "Tour du Rwanda",
+        "discipline": "road",
+        "date": "2026-02-22",
+        "category": "2.1",
+        "location": "TBD",
+        "tv": [
+            "Eurosport",
+            "Discovery+"
+        ],
+        "status": "Upcoming",
+        "isWomen": false,
+        "isUnder": false,
+        "isMinor": false,
+        "isMenElite": true,
+        "uciTour": "Africa Tour",
+        "source": "PCS (2.1)"
+    },
+    {
+        "id": "pcs-521",
+        "name": "Tour d'Algérie",
+        "discipline": "road",
+        "date": "2026-04-17",
+        "category": "2.2",
+        "location": "TBD",
+        "tv": [
+            "Eurosport",
+            "Discovery+"
+        ],
+        "status": "Upcoming",
+        "isWomen": false,
+        "isUnder": false,
+        "isMinor": true,
+        "isMenElite": true,
+        "uciTour": "Africa Tour",
+        "source": "PCS (2.2)"
+    },
+    {
+        "id": "pcs-522",
+        "name": "Tour du Bénin",
+        "discipline": "road",
+        "date": "2026-04-27",
+        "category": "2.2",
+        "location": "TBD",
+        "tv": [
+            "Eurosport",
+            "Discovery+"
+        ],
+        "status": "Upcoming",
+        "isWomen": false,
+        "isUnder": false,
+        "isMinor": true,
+        "isMenElite": true,
+        "uciTour": "Africa Tour",
+        "source": "PCS (2.2)"
+    },
+    {
+        "id": "pcs-523",
+        "name": "Grand Prix de la Ville d'Alger",
+        "discipline": "road",
+        "date": "2026-04-28",
+        "category": "1.2",
+        "location": "TBD",
+        "tv": [
+            "Eurosport",
+            "Discovery+"
+        ],
+        "status": "Upcoming",
+        "isWomen": false,
+        "isUnder": false,
+        "isMinor": true,
+        "isMenElite": true,
+        "uciTour": "Africa Tour",
+        "source": "PCS (1.2)"
+    },
+    {
+        "id": "pcs-524",
+        "name": "Grand Prix de la ville de Cotonou",
+        "discipline": "road",
+        "date": "2026-05-03",
+        "category": "1.2",
+        "location": "TBD",
+        "tv": [
+            "Eurosport",
+            "Discovery+"
+        ],
+        "status": "Upcoming",
+        "isWomen": false,
+        "isUnder": false,
+        "isMinor": true,
+        "isMenElite": true,
+        "uciTour": "Africa Tour",
+        "source": "PCS (1.2)"
+    },
+    {
+        "id": "pcs-525",
+        "name": "Tour de Maurice",
+        "discipline": "road",
+        "date": "2026-06-02",
+        "category": "2.2",
+        "location": "TBD",
+        "tv": [
+            "Eurosport",
+            "Discovery+"
+        ],
+        "status": "Upcoming",
+        "isWomen": false,
+        "isUnder": false,
+        "isMinor": true,
+        "isMenElite": true,
+        "uciTour": "Africa Tour",
+        "source": "PCS (2.2)"
+    },
+    {
+        "id": "pcs-526",
+        "name": "Tour du Cameroun",
+        "discipline": "road",
+        "date": "2026-06-05",
+        "category": "2.2",
+        "location": "TBD",
+        "tv": [
+            "Eurosport",
+            "Discovery+"
+        ],
+        "status": "Upcoming",
+        "isWomen": false,
+        "isUnder": false,
+        "isMinor": true,
+        "isMenElite": true,
+        "uciTour": "Africa Tour",
+        "source": "PCS (2.2)"
+    },
+    {
+        "id": "pcs-527",
+        "name": "Classique of Mauritius",
+        "discipline": "road",
+        "date": "2026-06-07",
+        "category": "1.2",
+        "location": "TBD",
+        "tv": [
+            "Eurosport",
+            "Discovery+"
+        ],
+        "status": "Upcoming",
+        "isWomen": false,
+        "isUnder": false,
+        "isMinor": true,
+        "isMenElite": true,
+        "uciTour": "Africa Tour",
+        "source": "PCS (1.2)"
+    },
+    {
+        "id": "pcs-528",
+        "name": "Grand Prix d'Ongola",
+        "discipline": "road",
+        "date": "2026-09-01",
+        "category": "1.2",
+        "location": "TBD",
+        "tv": [
+            "Eurosport",
+            "Discovery+"
+        ],
+        "status": "Upcoming",
+        "isWomen": false,
+        "isUnder": false,
+        "isMinor": true,
+        "isMenElite": true,
+        "uciTour": "Africa Tour",
+        "source": "PCS (1.2)"
+    },
+    {
+        "id": "pcs-529",
+        "name": "Grand Prix Chantal Biya",
+        "discipline": "road",
+        "date": "2026-09-02",
+        "category": "2.2",
+        "location": "TBD",
+        "tv": [
+            "Eurosport",
+            "Discovery+"
+        ],
+        "status": "Upcoming",
+        "isWomen": false,
+        "isUnder": false,
+        "isMinor": true,
+        "isMenElite": true,
+        "uciTour": "Africa Tour",
+        "source": "PCS (2.2)"
+    },
+    {
+        "id": "pcs-530",
+        "name": "Jayco Herald Sun Tour",
+        "discipline": "road",
+        "date": "2026-02-04",
+        "category": "2.1",
+        "location": "TBD",
+        "tv": [
+            "Eurosport",
+            "Discovery+"
+        ],
+        "status": "Upcoming",
+        "isWomen": false,
+        "isUnder": false,
+        "isMinor": false,
+        "isMenElite": true,
+        "uciTour": "Oceania Tour",
+        "source": "PCS (2.1)"
     }
 ]

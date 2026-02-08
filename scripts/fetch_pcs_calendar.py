@@ -15,7 +15,9 @@ def fetch_pcs_calendar(year=2026):
         ("24", "Women WorldTour"),
         ("16", "Women Elite"),
         ("18", "America Tour"),
-        ("12", "Asia Tour")
+        ("12", "Asia Tour"),
+        ("11", "Africa Tour"),
+        ("14", "Oceania Tour")
     ]
     
     all_races = []
@@ -75,13 +77,13 @@ def fetch_pcs_calendar(year=2026):
             if any(g in low_name for g in ["giro d'italia", "tour de france", "vuelta a espana", "vuelta ciclista a españa", "tour de l'avenir"]):
                 internal_cat = "GT"
             elif any(m in low_name for m in ["sanremo", "vlaanderen", "flanderes", "roubaix", "liege-bastogne", "lombardia", "strade bianche", "world championship", "championships", "paris-nice", "tirreno", "catalunya", "romandie", "dauphine", "suisse", "amstel gold", "fleche wallonne"]):
-                if any(m in low_name for m in ["sanremo", "vlaanderen", "roubaix", "liege", "lombardia"]) and not is_under:
+                if any(m in low_name for m in ["sanremo", "vlaanderen", "roubaix", "liege", "lombardia"]) and not "(mu)" in low_name and not "u23" in low_name:
                     internal_cat = "Monument"
                 else:
                     internal_cat = "Major"
 
             is_women = "women" in low_name or "donne" in low_name or "WWT" in category or "W.WT" in category or "W.Pro" in category or circuit_id in ["24", "16"]
-            is_under = "U23" in low_name or "(MU)" in low_name or "under 23" in low_name or "youth" in low_name
+            is_under = "u23" in low_name or "(mu)" in low_name or "under 23" in low_name or "youth" in low_name
             
             is_pro_rank = "UWT" in category or "Pro" in category or "1.1" in category or "2.1" in category
             is_minor = "1.2" in category or "2.2" in category
@@ -100,6 +102,7 @@ def fetch_pcs_calendar(year=2026):
                 "isUnder": is_under,
                 "isMinor": is_minor,
                 "isMenElite": is_men_elite,
+                "uciTour": circuit_name,
                 "source": f"PCS ({category})"
             }
             

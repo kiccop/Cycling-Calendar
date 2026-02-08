@@ -82,6 +82,11 @@ export default function App() {
     const [showUnder, setShowUnder] = useState(() => JSON.parse(localStorage.getItem('filter_under') ?? 'false'));
     const [showMenElite, setShowMenElite] = useState(() => JSON.parse(localStorage.getItem('filter_men_elite') ?? 'true'));
     const [showMinor, setShowMinor] = useState(() => JSON.parse(localStorage.getItem('filter_minor') ?? 'false'));
+    const [showEurope, setShowEurope] = useState(() => JSON.parse(localStorage.getItem('filter_europe') ?? 'true'));
+    const [showAmerica, setShowAmerica] = useState(() => JSON.parse(localStorage.getItem('filter_america') ?? 'true'));
+    const [showAfrica, setShowAfrica] = useState(() => JSON.parse(localStorage.getItem('filter_africa') ?? 'true'));
+    const [showAsia, setShowAsia] = useState(() => JSON.parse(localStorage.getItem('filter_asia') ?? 'true'));
+    const [showOceania, setShowOceania] = useState(() => JSON.parse(localStorage.getItem('filter_oceania') ?? 'true'));
 
     // Save filters to localStorage whenever they change
     useEffect(() => {
@@ -89,7 +94,12 @@ export default function App() {
         localStorage.setItem('filter_under', JSON.stringify(showUnder));
         localStorage.setItem('filter_men_elite', JSON.stringify(showMenElite));
         localStorage.setItem('filter_minor', JSON.stringify(showMinor));
-    }, [showWomen, showUnder, showMenElite, showMinor]);
+        localStorage.setItem('filter_europe', JSON.stringify(showEurope));
+        localStorage.setItem('filter_america', JSON.stringify(showAmerica));
+        localStorage.setItem('filter_africa', JSON.stringify(showAfrica));
+        localStorage.setItem('filter_asia', JSON.stringify(showAsia));
+        localStorage.setItem('filter_oceania', JSON.stringify(showOceania));
+    }, [showWomen, showUnder, showMenElite, showMinor, showEurope, showAmerica, showAfrica, showAsia, showOceania]);
 
     const [races, setRaces] = useState(RACE_DATA.map(r => ({ ...r, source: 'Archivio' })));
     const [isSyncing, setIsSyncing] = useState(false);
@@ -149,6 +159,17 @@ export default function App() {
         if (!showMinor) {
             list = list.filter(r => !r.isMinor);
         }
+
+        // Apply Tour Filters (only to PCS data which has uciTour, or if no tour info assume shown)
+        list = list.filter(r => {
+            if (!r.uciTour) return true;
+            if (r.uciTour === 'Europe Tour' && !showEurope) return false;
+            if (r.uciTour === 'America Tour' && !showAmerica) return false;
+            if (r.uciTour === 'Africa Tour' && !showAfrica) return false;
+            if (r.uciTour === 'Asia Tour' && !showAsia) return false;
+            if (r.uciTour === 'Oceania Tour' && !showOceania) return false;
+            return true;
+        });
 
         if (viewMode === 'today') {
             return list.filter(r => r.date === todayStr);
@@ -365,10 +386,50 @@ export default function App() {
                                                 <span className="slider"></span>
                                             </label>
                                         </div>
-                                        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+                                        <div style={{ display: 'flex', justifyContent: ' space-between', alignItems: 'center' }}>
                                             <span>Mostra Gare Minori (1.2/2.2)</span>
                                             <label className="switch">
                                                 <input type="checkbox" checked={showMinor} onChange={(e) => setShowMinor(e.target.checked)} />
+                                                <span className="slider"></span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div style={{ borderTop: '1px solid rgba(255,255,255,0.1)', paddingTop: '1rem', marginTop: '0.5rem' }}>
+                                    <h3 style={{ fontSize: '1rem', marginBottom: '1rem', color: 'var(--text-secondary)' }}>Circuiti Continentali</h3>
+                                    <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+                                        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+                                            <span>UCI Europe Tour</span>
+                                            <label className="switch">
+                                                <input type="checkbox" checked={showEurope} onChange={(e) => setShowEurope(e.target.checked)} />
+                                                <span className="slider"></span>
+                                            </label>
+                                        </div>
+                                        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+                                            <span>UCI America Tour</span>
+                                            <label className="switch">
+                                                <input type="checkbox" checked={showAmerica} onChange={(e) => setShowAmerica(e.target.checked)} />
+                                                <span className="slider"></span>
+                                            </label>
+                                        </div>
+                                        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+                                            <span>UCI Africa Tour</span>
+                                            <label className="switch">
+                                                <input type="checkbox" checked={showAfrica} onChange={(e) => setShowAfrica(e.target.checked)} />
+                                                <span className="slider"></span>
+                                            </label>
+                                        </div>
+                                        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+                                            <span>UCI Asia Tour</span>
+                                            <label className="switch">
+                                                <input type="checkbox" checked={showAsia} onChange={(e) => setShowAsia(e.target.checked)} />
+                                                <span className="slider"></span>
+                                            </label>
+                                        </div>
+                                        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+                                            <span>UCI Oceania Tour</span>
+                                            <label className="switch">
+                                                <input type="checkbox" checked={showOceania} onChange={(e) => setShowOceania(e.target.checked)} />
                                                 <span className="slider"></span>
                                             </label>
                                         </div>
