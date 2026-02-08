@@ -176,11 +176,16 @@ export default function App() {
             <header>
                 <div style={{ display: 'flex', flexDirection: 'column' }}>
                     <div className="logo">Cycling Calendar</div>
-                    {lastSync && (
-                        <div className="sync-status">
-                            Sincronizzato: {lastSync.toLocaleTimeString('it-IT')}
+                    <div style={{ display: 'flex', gap: '1rem', alignItems: 'center' }}>
+                        {lastSync && (
+                            <div className="sync-status">
+                                Sincronizzato: {lastSync.toLocaleTimeString('it-IT')}
+                            </div>
+                        )}
+                        <div className="sync-status" style={{ color: 'var(--accent-primary)' }}>
+                            {races.length} Gare Caricate
                         </div>
-                    )}
+                    </div>
                 </div>
                 <div style={{ display: 'flex', gap: '1rem', alignItems: 'center' }}>
                     <button

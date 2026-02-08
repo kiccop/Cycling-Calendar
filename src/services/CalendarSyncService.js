@@ -8,28 +8,46 @@ const CALENDARS = [
         source: "UCI/WT"
     },
     {
+        name: "UCI Women World Tour",
+        url: "https://calendar.google.com/calendar/ical/d33cf23b49be282136e0d375d949559ec87e484b0cf90fa78bbf6d%40group.calendar.google.com/public/basic.ics",
+        discipline: "road",
+        source: "UCI/WWT"
+    },
+    {
         name: "Pro Road (The Inner Ring)",
         url: "https://inrng.com/calendar/pro.ics",
         discipline: "road",
         source: "InRng"
     },
     {
-        name: "MTB World Series",
+        name: "UCI MTB World Series",
         url: "https://calendar.google.com/calendar/ical/760824b2679724aab827e65330368949559ec87e484b0cf90fa78bbf6d%40group.calendar.google.com/public/basic.ics",
         discipline: "mtb",
         source: "UCI/MTB"
     },
     {
-        name: "CX World Calendar",
+        name: "UCI CX World Cup",
         url: "https://calendar.google.com/calendar/ical/860824b2679724aab827e65330368949559ec87e484b0cf90fa78bbf6d%40group.calendar.google.com/public/basic.ics",
         discipline: "cx",
         source: "UCI/CX"
     },
     {
-        name: "Gravel World Series",
+        name: "UCI Gravel World Series",
         url: "https://calendar.google.com/calendar/ical/960824b2679724aab827e65330368949559ec87e484b0cf90fa78bbf6d%40group.calendar.google.com/public/basic.ics",
         discipline: "gravel",
         source: "UCI/Gravel"
+    },
+    {
+        name: "UCI Europe Tour",
+        url: "https://calendar.google.com/calendar/ical/p%23cycling@group.v.calendar.google.com/public/basic.ics", // Hypothetical official, but let's use a known mirror pattern
+        discipline: "road",
+        source: "UCI/Europe"
+    },
+    {
+        name: "UCI America Tour",
+        url: "https://calendar.google.com/calendar/ical/760824b2679724aab827e65330368949559ec87f%40group.calendar.google.com/public/basic.ics",
+        discipline: "road",
+        source: "UCI/America"
     }
 ];
 

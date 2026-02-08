@@ -101,8 +101,77 @@ export const RACE_DATA = [
         isMinor: false,
         isMenElite: true,
         isItaly: true
+    },
+    {
+        id: 30,
+        name: "Trofeo Laigueglia",
+        discipline: "road",
+        date: "2026-03-04",
+        startTime: "11:00",
+        tv: ["RAI Sport", "Eurosport"],
+        status: "Upcoming",
+        location: "Laigueglia, Italy",
+        isMenElite: true,
+        isItaly: true
+    },
+    {
+        id: 31,
+        name: "Strade Bianche",
+        discipline: "road",
+        date: "2026-03-07",
+        startTime: "11:30",
+        tv: ["RAI Sport", "Eurosport"],
+        status: "Upcoming",
+        location: "Siena, Italy",
+        isMenElite: true,
+        isItaly: true,
+        category: "Monument" // Not a monument but very prestigious, adding to prestige section? 
+    },
+    {
+        id: 32,
+        name: "Tirreno-Adriatico",
+        discipline: "road",
+        date: "2026-03-09",
+        startTime: "12:00",
+        tv: ["RAI Sport", "Eurosport"],
+        status: "Upcoming",
+        location: "Italy",
+        isMenElite: true,
+        isItaly: true
+    },
+    {
+        id: 40,
+        name: "UAE Tour",
+        discipline: "road",
+        date: "2026-02-22",
+        startTime: "11:00",
+        tv: ["Eurosport", "Discovery+"],
+        status: "Upcoming",
+        location: "United Arab Emirates",
+        isMenElite: true
+    },
+    {
+        id: 41,
+        name: "Omloop Het Nieuwsblad",
+        discipline: "road",
+        date: "2026-02-28",
+        startTime: "11:00",
+        tv: ["Eurosport", "Discovery+"],
+        status: "Upcoming",
+        location: "Belgium",
+        isMenElite: true
+    },
+    {
+        id: 42,
+        name: "Paris-Nice",
+        discipline: "road",
+        date: "2026-03-08",
+        startTime: "12:00",
+        tv: ["Eurosport", "RAI Sport"],
+        status: "Upcoming",
+        location: "France",
+        isMenElite: true
     }
-    // Add more if needed, but these are the main ones requested
 ];
 
 export const DISCIPLINES = [
