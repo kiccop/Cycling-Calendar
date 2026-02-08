@@ -1,5 +1,5 @@
 import React, { useState, useMemo, useEffect } from 'react';
-import { Bell, BellOff, Settings, Calendar, MapPin, Tv, Clock, LayoutGrid, List, RefreshCw, Coffee, Heart } from 'lucide-react';
+import { Bell, BellOff, Settings, Calendar, MapPin, Tv, Clock, LayoutGrid, List, RefreshCw, Coffee, Heart, X } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { RACE_DATA, DISCIPLINES } from './data';
 import { fetchExternalRaces } from './services/CalendarSyncService';
@@ -101,7 +101,7 @@ export default function App() {
         localStorage.setItem('filter_oceania', JSON.stringify(showOceania));
     }, [showWomen, showUnder, showMenElite, showMinor, showEurope, showAmerica, showAfrica, showAsia, showOceania]);
 
-    const [races, setRaces] = useState(RACE_DATA.map(r => ({ ...r, source: 'Archivio' })));
+    const [races, setRaces] = useState(() => RACE_DATA.map(r => ({ ...r, source: 'Archivio' })));
     const [isSyncing, setIsSyncing] = useState(false);
     const [lastSync, setLastSync] = useState(null);
 
@@ -120,7 +120,6 @@ export default function App() {
                     if (!matchingExt) {
                         combined.push({ ...local, source: 'Archivio' });
                     } else {
-                        // Enforce local prestige data on synced races
                         if (!matchingExt.category && local.category) matchingExt.category = local.category;
                         if (!matchingExt.startTime && local.startTime) matchingExt.startTime = local.startTime;
                     }
@@ -147,20 +146,12 @@ export default function App() {
         }
 
         // Apply Advanced Filters
-        if (!showWomen) {
-            list = list.filter(r => !r.isWomen);
-        }
-        if (!showUnder) {
-            list = list.filter(r => !r.isUnder);
-        }
-        if (!showMenElite) {
-            list = list.filter(r => !r.isMenElite);
-        }
-        if (!showMinor) {
-            list = list.filter(r => !r.isMinor);
-        }
+        if (!showWomen) list = list.filter(r => !r.isWomen);
+        if (!showUnder) list = list.filter(r => !r.isUnder);
+        if (!showMenElite) list = list.filter(r => !r.isMenElite);
+        if (!showMinor) list = list.filter(r => !r.isMinor);
 
-        // Apply Tour Filters (only to PCS data which has uciTour, or if no tour info assume shown)
+        // Apply Tour Filters
         list = list.filter(r => {
             if (!r.uciTour) return true;
             if (r.uciTour === 'Europe Tour' && !showEurope) return false;
@@ -179,7 +170,7 @@ export default function App() {
             return list.filter(r => r.category === 'GT' || r.category === 'Monument' || r.category === 'Major');
         }
         return list;
-    }, [filter, viewMode, races, todayStr]); // Added races and todayStr to dependencies
+    }, [filter, viewMode, races, todayStr, showWomen, showUnder, showMenElite, showMinor, showEurope, showAmerica, showAfrica, showAsia, showOceania]);
 
     const groupedByMonth = useMemo(() => {
         if (viewMode !== 'calendar') return null;
@@ -204,7 +195,7 @@ export default function App() {
                             </div>
                         )}
                         <div className="sync-status" style={{ color: 'var(--accent-primary)' }}>
-                            {races.length} Gare Caricate
+                            {processedData.length} Gare Visualizzate
                         </div>
                     </div>
                 </div>
@@ -220,10 +211,8 @@ export default function App() {
                     <button
                         className="filter-btn"
                         onClick={() => setNotificationsEnabled(!notificationsEnabled)}
-                        style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}
                     >
                         {notificationsEnabled ? <Bell size={18} /> : <BellOff size={18} />}
-                        <span className="hide-mobile">{notificationsEnabled ? 'Notifiche ON' : 'Notifiche OFF'}</span>
                     </button>
                     <button
                         className="filter-btn"
@@ -235,30 +224,20 @@ export default function App() {
             </header>
 
             <div className="view-tabs">
-                <button
-                    className={`tab-btn ${viewMode === 'today' ? 'active' : ''}`}
-                    onClick={() => setViewMode('today')}
-                >
-                    <Clock size={18} /> Oggi
-                </button>
-                <button
-                    className={`tab-btn ${viewMode === 'upcoming' ? 'active' : ''}`}
-                    onClick={() => setViewMode('upcoming')}
-                >
-                    <LayoutGrid size={18} /> Prossimi
-                </button>
-                <button
-                    className={`tab-btn ${viewMode === 'calendar' ? 'active' : ''}`}
-                    onClick={() => setViewMode('calendar')}
-                >
-                    <List size={18} /> Calendario
-                </button>
-                <button
-                    className={`tab-btn ${viewMode === 'prestige' ? 'active' : ''}`}
-                    onClick={() => setViewMode('prestige')}
-                >
-                    <Heart size={18} /> Prestigio
-                </button>
+                {[
+                    { id: 'today', label: 'Oggi', icon: Clock },
+                    { id: 'upcoming', label: 'Prossimi', icon: LayoutGrid },
+                    { id: 'calendar', label: 'Calendario', icon: List },
+                    { id: 'prestige', label: 'Prestigio', icon: Heart },
+                ].map(tab => (
+                    <button
+                        key={tab.id}
+                        className={`tab-btn ${viewMode === tab.id ? 'active' : ''}`}
+                        onClick={() => setViewMode(tab.id)}
+                    >
+                        <tab.icon size={18} /> <span className="hide-mobile">{tab.label}</span>
+                    </button>
+                ))}
             </div>
 
             <div className="filters-bar">
@@ -274,199 +253,140 @@ export default function App() {
             </div>
 
             <main>
-                {viewMode === 'today' && processedData.length === 0 && (
-                    <div className="empty-state glass-panel">
-                        Nessuna gara in programma per oggi.
-                    </div>
-                )}
-
-                {viewMode === 'calendar' ? (
-                    <div className="calendar-view">
-                        {Object.entries(groupedByMonth).map(([month, races]) => (
+                <AnimatePresence mode="popLayout">
+                    {viewMode === 'calendar' ? (
+                        Object.keys(groupedByMonth || {}).map(month => (
                             <div key={month} className="month-section">
                                 <h2 className="month-title">{month}</h2>
                                 <div className="race-grid">
-                                    {races.map(race => (
+                                    {groupedByMonth[month].map(race => (
                                         <RaceCard key={race.id} race={race} isToday={race.date === todayStr} />
                                     ))}
                                 </div>
                             </div>
-                        ))}
-                    </div>
-                ) : (
-                    <motion.div layout className="race-grid">
-                        <AnimatePresence mode='popLayout'>
+                        ))
+                    ) : (
+                        <div className="race-grid">
                             {processedData.map(race => (
                                 <RaceCard key={race.id} race={race} isToday={race.date === todayStr} />
                             ))}
-                        </AnimatePresence>
-                    </motion.div>
-                )}
-                {viewMode === 'prestige' && (
-                    <div className="calendar-grid prestige-view">
-                        <div className="prestige-section">
-                            <h2 className="month-title">Grandi Giri 🏆</h2>
-                            <div className="race-list">
-                                {processedData.filter(r => r.category === 'GT').map(race => (
-                                    <RaceCard key={race.id} race={race} isToday={race.date === todayStr} />
-                                ))}
-                            </div>
+                            {processedData.length === 0 && (
+                                <div className="empty-state">
+                                    <p>Nessuna gara trovata per questi filtri.</p>
+                                </div>
+                            )}
                         </div>
-
-                        <div className="prestige-section">
-                            <h2 className="month-title">Le 5 Classiche Monumento 🏛️</h2>
-                            <div className="race-list">
-                                {processedData.filter(r => r.category === 'Monument').map(race => (
-                                    <RaceCard key={race.id} race={race} isToday={race.date === todayStr} />
-                                ))}
-                            </div>
-                        </div>
-                    </div>
-                )}
+                    )}
+                </AnimatePresence>
             </main>
 
-            {/* Settings Modal */}
             <AnimatePresence>
                 {showSettings && (
                     <motion.div
+                        className="modal-overlay"
                         initial={{ opacity: 0 }}
                         animate={{ opacity: 1 }}
                         exit={{ opacity: 0 }}
-                        className="modal-overlay"
                         onClick={() => setShowSettings(false)}
                     >
                         <motion.div
-                            initial={{ scale: 0.9, opacity: 0 }}
-                            animate={{ scale: 1, opacity: 1 }}
-                            exit={{ scale: 0.9, opacity: 0 }}
+                            initial={{ scale: 0.9, opacity: 0, y: 20 }}
+                            animate={{ scale: 1, opacity: 1, y: 0 }}
+                            exit={{ scale: 0.9, opacity: 0, y: 20 }}
                             className="modal-content glass-panel"
                             onClick={e => e.stopPropagation()}
                         >
-                            <h2 style={{ marginBottom: '1.5rem' }}>Configurazione</h2>
-                            <div style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem' }}>
-                                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-                                    <span>Notifiche push gare live</span>
-                                    <label className="switch">
-                                        <input
-                                            type="checkbox"
-                                            checked={notificationsEnabled}
-                                            onChange={() => setNotificationsEnabled(!notificationsEnabled)}
-                                        />
-                                        <span className="slider"></span>
-                                    </label>
+                            <div className="modal-header">
+                                <h2>Configurazione</h2>
+                                <button className="close-btn" onClick={() => setShowSettings(false)}>
+                                    <X size={24} />
+                                </button>
+                            </div>
+
+                            <div className="modal-body">
+                                <div style={{ display: 'flex', flexDirection: 'column', gap: '2rem' }}>
+                                    <section>
+                                        <h3 style={{ fontSize: '0.8rem', textTransform: 'uppercase', letterSpacing: '0.1em', color: 'var(--accent-road)', marginBottom: '1rem' }}>Preferenze</h3>
+                                        <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+                                            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+                                                <span>Notifiche push gare live</span>
+                                                <label className="switch">
+                                                    <input type="checkbox" checked={notificationsEnabled} onChange={() => setNotificationsEnabled(!notificationsEnabled)} />
+                                                    <span className="slider"></span>
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </section>
+
+                                    <section style={{ borderTop: '1px solid rgba(255,255,255,0.1)', paddingTop: '1.5rem' }}>
+                                        <h3 style={{ fontSize: '0.8rem', textTransform: 'uppercase', letterSpacing: '0.1em', color: 'var(--accent-road)', marginBottom: '1rem' }}>Filtri Categoria</h3>
+                                        <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+                                            {[
+                                                { label: 'Uomini Elite (UCI WT/Pro)', value: showMenElite, setter: setShowMenElite },
+                                                { label: 'Gare Donne (WWT/WE)', value: showWomen, setter: setShowWomen },
+                                                { label: 'Under 23 / Youth', value: showUnder, setter: setShowUnder },
+                                                { label: 'Gare Minori (1.2/2.2)', value: showMinor, setter: setShowMinor },
+                                            ].map(f => (
+                                                <div key={f.label} style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+                                                    <span>{f.label}</span>
+                                                    <label className="switch">
+                                                        <input type="checkbox" checked={f.value} onChange={(e) => f.setter(e.target.checked)} />
+                                                        <span className="slider"></span>
+                                                    </label>
+                                                </div>
+                                            ))}
+                                        </div>
+                                    </section>
+
+                                    <section style={{ borderTop: '1px solid rgba(255,255,255,0.1)', paddingTop: '1.5rem' }}>
+                                        <h3 style={{ fontSize: '0.8rem', textTransform: 'uppercase', letterSpacing: '0.1em', color: 'var(--accent-road)', marginBottom: '1rem' }}>Circuiti Continentali</h3>
+                                        <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+                                            {[
+                                                { label: 'Europe Tour', value: showEurope, setter: setShowEurope },
+                                                { label: 'America Tour', value: showAmerica, setter: setShowAmerica },
+                                                { label: 'Africa Tour', value: showAfrica, setter: setShowAfrica },
+                                                { label: 'Asia Tour', value: showAsia, setter: setShowAsia },
+                                                { label: 'Oceania Tour', value: showOceania, setter: setShowOceania },
+                                            ].map(t => (
+                                                <div key={t.label} style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+                                                    <span>{t.label}</span>
+                                                    <label className="switch">
+                                                        <input type="checkbox" checked={t.value} onChange={(e) => t.setter(e.target.checked)} />
+                                                        <span className="slider"></span>
+                                                    </label>
+                                                </div>
+                                            ))}
+                                        </div>
+                                    </section>
+
+                                    <section style={{ borderTop: '1px solid rgba(255,255,255,0.1)', paddingTop: '1.5rem' }}>
+                                        <div style={{ display: 'flex', alignItems: 'center', gap: '1rem', background: 'rgba(255,255,255,0.03)', padding: '1rem', borderRadius: '12px' }}>
+                                            <div style={{ background: 'rgba(255,196,0,0.1)', padding: '0.75rem', borderRadius: '50%', color: '#ffc400' }}>
+                                                <Coffee size={20} />
+                                            </div>
+                                            <div style={{ flex: 1 }}>
+                                                <div style={{ fontSize: '0.85rem', fontWeight: 600 }}>Supporta il progetto</div>
+                                                <div style={{ fontSize: '0.7rem', color: 'var(--text-secondary)' }}>Offri un caffè allo sviluppatore</div>
+                                            </div>
+                                            <button
+                                                className="filter-btn"
+                                                style={{ background: '#ffc400', color: '#000', border: 'none', fontWeight: 800, padding: '0.4rem 0.8rem' }}
+                                                onClick={() => window.open('https://www.paypal.com/donate/?hosted_button_id=JSNCEXQNEEC6G', '_blank')}
+                                            >
+                                                DONA
+                                            </button>
+                                        </div>
+                                    </section>
                                 </div>
-                                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-                                    <span>Avvisi cambi programmazione TV</span>
-                                    <label className="switch">
-                                        <input type="checkbox" defaultChecked />
-                                        <span className="slider"></span>
-                                    </label>
-                                </div>
-                                <div style={{ borderTop: '1px solid rgba(255,255,255,0.1)', paddingTop: '1rem', marginTop: '0.5rem' }}>
-                                    <h3 style={{ fontSize: '1rem', marginBottom: '1rem', color: 'var(--text-secondary)' }}>Filtri Gare</h3>
-                                    <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
-                                        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-                                            <span>Mostra Uomini Elite (Pro)</span>
-                                            <label className="switch">
-                                                <input type="checkbox" checked={showMenElite} onChange={(e) => setShowMenElite(e.target.checked)} />
-                                                <span className="slider"></span>
-                                            </label>
-                                        </div>
-                                        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-                                            <span>Mostra Gare Donne</span>
-                                            <label className="switch">
-                                                <input type="checkbox" checked={showWomen} onChange={(e) => setShowWomen(e.target.checked)} />
-                                                <span className="slider"></span>
-                                            </label>
-                                        </div>
-                                        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-                                            <span>Mostra Gare Under 23 / Youth</span>
-                                            <label className="switch">
-                                                <input type="checkbox" checked={showUnder} onChange={(e) => setShowUnder(e.target.checked)} />
-                                                <span className="slider"></span>
-                                            </label>
-                                        </div>
-                                        <div style={{ display: 'flex', justifyContent: ' space-between', alignItems: 'center' }}>
-                                            <span>Mostra Gare Minori (1.2/2.2)</span>
-                                            <label className="switch">
-                                                <input type="checkbox" checked={showMinor} onChange={(e) => setShowMinor(e.target.checked)} />
-                                                <span className="slider"></span>
-                                            </label>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div style={{ borderTop: '1px solid rgba(255,255,255,0.1)', paddingTop: '1rem', marginTop: '0.5rem' }}>
-                                    <h3 style={{ fontSize: '1rem', marginBottom: '1rem', color: 'var(--text-secondary)' }}>Circuiti Continentali</h3>
-                                    <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
-                                        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-                                            <span>UCI Europe Tour</span>
-                                            <label className="switch">
-                                                <input type="checkbox" checked={showEurope} onChange={(e) => setShowEurope(e.target.checked)} />
-                                                <span className="slider"></span>
-                                            </label>
-                                        </div>
-                                        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-                                            <span>UCI America Tour</span>
-                                            <label className="switch">
-                                                <input type="checkbox" checked={showAmerica} onChange={(e) => setShowAmerica(e.target.checked)} />
-                                                <span className="slider"></span>
-                                            </label>
-                                        </div>
-                                        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-                                            <span>UCI Africa Tour</span>
-                                            <label className="switch">
-                                                <input type="checkbox" checked={showAfrica} onChange={(e) => setShowAfrica(e.target.checked)} />
-                                                <span className="slider"></span>
-                                            </label>
-                                        </div>
-                                        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-                                            <span>UCI Asia Tour</span>
-                                            <label className="switch">
-                                                <input type="checkbox" checked={showAsia} onChange={(e) => setShowAsia(e.target.checked)} />
-                                                <span className="slider"></span>
-                                            </label>
-                                        </div>
-                                        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-                                            <span>UCI Oceania Tour</span>
-                                            <label className="switch">
-                                                <input type="checkbox" checked={showOceania} onChange={(e) => setShowOceania(e.target.checked)} />
-                                                <span className="slider"></span>
-                                            </label>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div style={{
-                                    borderTop: '1px solid rgba(255,255,255,0.1)',
-                                    paddingTop: '1.5rem',
-                                    marginTop: '0.5rem',
-                                    display: 'flex',
-                                    flexDirection: 'column',
-                                    gap: '0.5rem'
-                                }}>
-                                    <span style={{ fontSize: '0.85rem', color: 'var(--text-secondary)' }}>Offri un caffè allo sviluppatore</span>
-                                    <button
-                                        className="filter-btn"
-                                        style={{
-                                            width: '100%',
-                                            background: 'rgba(255, 196, 0, 0.1)',
-                                            borderColor: 'rgba(255, 196, 0, 0.3)',
-                                            color: '#ffc400',
-                                            display: 'flex',
-                                            alignItems: 'center',
-                                            justifyContent: 'center',
-                                            gap: '0.5rem'
-                                        }}
-                                        onClick={() => window.open('https://www.paypal.com/donate/?hosted_button_id=JSNCEXQNEEC6G', '_blank')}
-                                    >
-                                        <Coffee size={18} /> Supporta il progetto
-                                    </button>
-                                </div>
+                            </div>
+
+                            <div className="modal-footer">
                                 <button
                                     className="filter-btn active"
-                                    style={{ width: '100%', marginTop: '1rem' }}
+                                    style={{ width: '100%', padding: '1rem', fontSize: '1rem', fontWeight: '800' }}
                                     onClick={() => setShowSettings(false)}
                                 >
-                                    Salva Impostazioni
+                                    SALVA E CHIUDI
                                 </button>
                             </div>
                         </motion.div>
