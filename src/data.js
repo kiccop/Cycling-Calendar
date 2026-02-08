@@ -98,7 +98,9 @@ export const RACE_DATA = [
         location: "Brugherio (MB), Italy",
         isWomen: false,
         isUnder: false,
-        isMinor: false
+        isMinor: false,
+        isMenElite: true,
+        isItaly: true
     }
     // Add more if needed, but these are the main ones requested
 ];

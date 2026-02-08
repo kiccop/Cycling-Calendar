@@ -29,8 +29,21 @@ const RaceCard = ({ race, isToday }) => {
                     <span className="dot"></span> ON AIR / OGGI
                 </div>
             )}
-            <div className={`race-badge ${getBadgeClass(race.discipline)}`}>
-                {race.discipline}
+            <div style={{ display: 'flex', gap: '0.5rem', marginBottom: '0.8rem' }}>
+                <div className={`race-badge ${getBadgeClass(race.discipline)}`}>
+                    {race.discipline}
+                </div>
+                {race.isItaly && (
+                    <div className="race-badge" style={{
+                        background: 'linear-gradient(90deg, #009246 0%, #009246 33%, #ffffff 33%, #ffffff 66%, #ce2b37 66%, #ce2b37 100%)',
+                        color: race.discipline === 'cx' ? '#fff' : '#000',
+                        fontWeight: 'bold',
+                        border: '1px solid rgba(255,255,255,0.2)',
+                        textShadow: '0 0 2px rgba(0,0,0,0.5)'
+                    }}>
+                        🇮🇹 ITA
+                    </div>
+                )}
             </div>
             <h3 className="race-title">{race.name}</h3>
             <div className="race-meta">
@@ -64,10 +77,19 @@ export default function App() {
     const [notificationsEnabled, setNotificationsEnabled] = useState(false);
     const [showSettings, setShowSettings] = useState(false);
 
-    // Advanced Filters State
-    const [showWomen, setShowWomen] = useState(true);
-    const [showUnder, setShowUnder] = useState(false);
-    const [showMinor, setShowMinor] = useState(false);
+    // Advanced Filters State with Persistence
+    const [showWomen, setShowWomen] = useState(() => JSON.parse(localStorage.getItem('filter_women') ?? 'true'));
+    const [showUnder, setShowUnder] = useState(() => JSON.parse(localStorage.getItem('filter_under') ?? 'false'));
+    const [showMenElite, setShowMenElite] = useState(() => JSON.parse(localStorage.getItem('filter_men_elite') ?? 'true'));
+    const [showMinor, setShowMinor] = useState(() => JSON.parse(localStorage.getItem('filter_minor') ?? 'false'));
+
+    // Save filters to localStorage whenever they change
+    useEffect(() => {
+        localStorage.setItem('filter_women', JSON.stringify(showWomen));
+        localStorage.setItem('filter_under', JSON.stringify(showUnder));
+        localStorage.setItem('filter_men_elite', JSON.stringify(showMenElite));
+        localStorage.setItem('filter_minor', JSON.stringify(showMinor));
+    }, [showWomen, showUnder, showMenElite, showMinor]);
 
     const [races, setRaces] = useState(RACE_DATA.map(r => ({ ...r, source: 'Archivio' })));
     const [isSyncing, setIsSyncing] = useState(false);
@@ -121,8 +143,10 @@ export default function App() {
         if (!showUnder) {
             list = list.filter(r => !r.isUnder);
         }
+        if (!showMenElite) {
+            list = list.filter(r => !r.isMenElite);
+        }
         if (!showMinor) {
-            // Hide minor races by default or when toggled off
             list = list.filter(r => !r.isMinor);
         }
 
@@ -316,6 +340,13 @@ export default function App() {
                                     <h3 style={{ fontSize: '1rem', marginBottom: '1rem', color: 'var(--text-secondary)' }}>Filtri Gare</h3>
                                     <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
                                         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+                                            <span>Mostra Uomini Elite (Pro)</span>
+                                            <label className="switch">
+                                                <input type="checkbox" checked={showMenElite} onChange={(e) => setShowMenElite(e.target.checked)} />
+                                                <span className="slider"></span>
+                                            </label>
+                                        </div>
+                                        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
                                             <span>Mostra Gare Donne</span>
                                             <label className="switch">
                                                 <input type="checkbox" checked={showWomen} onChange={(e) => setShowWomen(e.target.checked)} />
@@ -323,7 +354,7 @@ export default function App() {
                                             </label>
                                         </div>
                                         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-                                            <span>Mostra Gare Under 23</span>
+                                            <span>Mostra Gare Under 23 / Youth</span>
                                             <label className="switch">
                                                 <input type="checkbox" checked={showUnder} onChange={(e) => setShowUnder(e.target.checked)} />
                                                 <span className="slider"></span>

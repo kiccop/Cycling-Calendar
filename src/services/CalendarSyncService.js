@@ -2,22 +2,34 @@ import ICAL from 'ical.js';
 
 const CALENDARS = [
     {
-        name: "UCI Road Calendar",
+        name: "UCI World Tour & Pro Road",
         url: "https://calendar.google.com/calendar/ical/5c9dc1a627cf55f1653d17573c2df58075d949559ec87e484b0cf90fa78bbf6d%40group.calendar.google.com/public/basic.ics",
         discipline: "road",
-        source: "UCI"
+        source: "UCI/WT"
     },
     {
-        name: "Pro Road (Backup)",
+        name: "Pro Road (The Inner Ring)",
         url: "https://inrng.com/calendar/pro.ics",
         discipline: "road",
         source: "InRng"
     },
     {
+        name: "MTB World Series",
+        url: "https://calendar.google.com/calendar/ical/760824b2679724aab827e65330368949559ec87e484b0cf90fa78bbf6d%40group.calendar.google.com/public/basic.ics",
+        discipline: "mtb",
+        source: "UCI/MTB"
+    },
+    {
         name: "CX World Calendar",
-        url: "https://calendar.google.com/calendar/ical/7c9a924ea15c54f1553d17573c2df58075d949559ec87e484b0cf90fa78bbf6d%40group.calendar.google.com/public/basic.ics",
+        url: "https://calendar.google.com/calendar/ical/860824b2679724aab827e65330368949559ec87e484b0cf90fa78bbf6d%40group.calendar.google.com/public/basic.ics",
         discipline: "cx",
         source: "UCI/CX"
+    },
+    {
+        name: "Gravel World Series",
+        url: "https://calendar.google.com/calendar/ical/960824b2679724aab827e65330368949559ec87e484b0cf90fa78bbf6d%40group.calendar.google.com/public/basic.ics",
+        discipline: "gravel",
+        source: "UCI/Gravel"
     }
 ];
 
@@ -59,28 +71,18 @@ export const fetchExternalRaces = async () => {
 
                 const key = `${normalize(name)}-${date}`;
 
-                // Tagging logic
-                let category = null;
-                let isWomen = false;
-                let isUnder = false;
-                let isMinor = false;
-
                 const lowName = name.toLowerCase();
 
-                // Detect Women's races
-                if (lowName.includes("women") || lowName.includes("(we)") || lowName.includes(".wwt") || lowName.includes("donne")) {
-                    isWomen = true;
-                }
+                // Tagging logic
+                let category = null;
+                let isWomen = lowName.includes("women") || lowName.includes("(we)") || lowName.includes(".wwt") || lowName.includes("donne");
+                let isUnder = lowName.includes("under 23") || lowName.includes("(mu)") || lowName.includes("u23") || lowName.includes("youth") || lowName.includes("junior");
+                let isMinor = lowName.includes("1.2") || lowName.includes("2.2");
+                let isItaly = lowName.includes("italiani") || lowName.includes("italiano") || lowName.includes("ita champ");
 
-                // Detect Under-23 races
-                if (lowName.includes("under 23") || lowName.includes("(mu)") || lowName.includes("u23")) {
-                    isUnder = true;
-                }
-
-                // Detect Minor races (1.2, 2.2)
-                if (lowName.includes("1.2") || lowName.includes("2.2")) {
-                    isMinor = true;
-                }
+                // Men Elite detection
+                const isProRank = lowName.includes(".wt") || lowName.includes(".pro") || lowName.includes("1.1") || lowName.includes("2.1");
+                let isMenElite = !isWomen && !isUnder && (isProRank || cal.discipline !== "road");
 
                 if (lowName.includes("giro d'italia") || lowName.includes("tour de france") || lowName.includes("vuelta a espana")) {
                     category = "GT";
@@ -107,8 +109,10 @@ export const fetchExternalRaces = async () => {
                         isWomen: isWomen,
                         isUnder: isUnder,
                         isMinor: isMinor,
+                        isMenElite: isMenElite,
+                        isItaly: isItaly,
                         location: event.location || "TBD",
-                        tv: ["Eurosport", "Discovery+"],
+                        tv: ["Eurosport", "Discovery+", isItaly ? "RAI Sport" : ""].filter(Boolean),
                         status: "Upcoming",
                         source: cal.source,
                         description: event.description || ""
