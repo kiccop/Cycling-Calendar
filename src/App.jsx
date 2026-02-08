@@ -155,7 +155,7 @@ export default function App() {
         } else if (viewMode === 'upcoming') {
             return list.filter(r => r.date >= todayStr).slice(0, 15);
         } else if (viewMode === 'prestige') {
-            return list.filter(r => r.category === 'GT' || r.category === 'Monument');
+            return list.filter(r => r.category === 'GT' || r.category === 'Monument' || r.category === 'Major');
         }
         return list;
     }, [filter, viewMode, races, todayStr]); // Added races and todayStr to dependencies

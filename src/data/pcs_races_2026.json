@@ -76,25 +76,27 @@
         "name": "Strade Bianche",
         "discipline": "road",
         "date": "2026-03-07",
-        "category": "1.UWT",
-        "location": "TBD",
+        "category": "Major",
+        "location": "Italy",
         "tv": [
             "Eurosport",
-            "Discovery+"
+            "Discovery+",
+            "RAI Sport"
         ],
         "status": "Upcoming",
         "isWomen": false,
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
-        "source": "PCS (1.UWT)"
+        "source": "PCS (1.UWT)",
+        "isItaly": true
     },
     {
         "id": "pcs-5",
         "name": "Paris-Nice",
         "discipline": "road",
         "date": "2026-03-08",
-        "category": "2.UWT",
+        "category": "Major",
         "location": "TBD",
         "tv": [
             "Eurosport",
@@ -112,7 +114,7 @@
         "name": "Tirreno-Adriatico",
         "discipline": "road",
         "date": "2026-03-09",
-        "category": "2.UWT",
+        "category": "Major",
         "location": "Italy",
         "tv": [
             "Eurosport",
@@ -132,7 +134,7 @@
         "name": "Milano-Sanremo",
         "discipline": "road",
         "date": "2026-03-21",
-        "category": "1.UWT",
+        "category": "Monument",
         "location": "Italy",
         "tv": [
             "Eurosport",
@@ -152,7 +154,7 @@
         "name": "Volta Ciclista a Catalunya",
         "discipline": "road",
         "date": "2026-03-23",
-        "category": "2.UWT",
+        "category": "Major",
         "location": "TBD",
         "tv": [
             "Eurosport",
@@ -224,7 +226,7 @@
         "name": "Dwars door Vlaanderen - A travers la Flandre",
         "discipline": "road",
         "date": "2026-04-01",
-        "category": "1.UWT",
+        "category": "Monument",
         "location": "TBD",
         "tv": [
             "Eurosport",
@@ -242,7 +244,7 @@
         "name": "Ronde van Vlaanderen",
         "discipline": "road",
         "date": "2026-04-05",
-        "category": "1.UWT",
+        "category": "Monument",
         "location": "TBD",
         "tv": [
             "Eurosport",
@@ -278,7 +280,7 @@
         "name": "Paris-Roubaix Hauts-de-France",
         "discipline": "road",
         "date": "2026-04-12",
-        "category": "1.UWT",
+        "category": "Monument",
         "location": "TBD",
         "tv": [
             "Eurosport",
@@ -296,7 +298,7 @@
         "name": "Amstel Gold Race",
         "discipline": "road",
         "date": "2026-04-19",
-        "category": "1.UWT",
+        "category": "Major",
         "location": "TBD",
         "tv": [
             "Eurosport",
@@ -350,7 +352,7 @@
         "name": "Tour de Romandie",
         "discipline": "road",
         "date": "2026-04-28",
-        "category": "2.UWT",
+        "category": "Major",
         "location": "TBD",
         "tv": [
             "Eurosport",
@@ -386,7 +388,7 @@
         "name": "Giro d'Italia",
         "discipline": "road",
         "date": "2026-05-08",
-        "category": "2.UWT",
+        "category": "GT",
         "location": "Italy",
         "tv": [
             "Eurosport",
@@ -442,7 +444,7 @@
         "name": "Tour de Suisse",
         "discipline": "road",
         "date": "2026-06-17",
-        "category": "2.UWT",
+        "category": "Major",
         "location": "TBD",
         "tv": [
             "Eurosport",
@@ -460,7 +462,7 @@
         "name": "Tour de France",
         "discipline": "road",
         "date": "2026-07-04",
-        "category": "2.UWT",
+        "category": "GT",
         "location": "TBD",
         "tv": [
             "Eurosport",
@@ -550,7 +552,7 @@
         "name": "La Vuelta Ciclista a España",
         "discipline": "road",
         "date": "2026-08-22",
-        "category": "2.UWT",
+        "category": "GT",
         "location": "TBD",
         "tv": [
             "Eurosport",
@@ -622,7 +624,7 @@
         "name": "Il Lombardia",
         "discipline": "road",
         "date": "2026-10-10",
-        "category": "1.UWT",
+        "category": "Monument",
         "location": "Italy",
         "tv": [
             "Eurosport",
@@ -879,17 +881,19 @@
         "discipline": "road",
         "date": "2026-03-04",
         "category": "1.Pro",
-        "location": "TBD",
+        "location": "Italy",
         "tv": [
             "Eurosport",
-            "Discovery+"
+            "Discovery+",
+            "RAI Sport"
         ],
         "status": "Upcoming",
         "isWomen": false,
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
-        "source": "PCS (1.Pro)"
+        "source": "PCS (1.Pro)",
+        "isItaly": true
     },
     {
         "id": "pcs-49",
@@ -915,17 +919,19 @@
         "discipline": "road",
         "date": "2026-03-18",
         "category": "1.Pro",
-        "location": "TBD",
+        "location": "Italy",
         "tv": [
             "Eurosport",
-            "Discovery+"
+            "Discovery+",
+            "RAI Sport"
         ],
         "status": "Upcoming",
         "isWomen": false,
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
-        "source": "PCS (1.Pro)"
+        "source": "PCS (1.Pro)",
+        "isItaly": true
     },
     {
         "id": "pcs-51",
@@ -1673,17 +1679,19 @@
         "discipline": "road",
         "date": "2026-10-08",
         "category": "1.Pro",
-        "location": "TBD",
+        "location": "Italy",
         "tv": [
             "Eurosport",
-            "Discovery+"
+            "Discovery+",
+            "RAI Sport"
         ],
         "status": "Upcoming",
         "isWomen": false,
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
-        "source": "PCS (1.Pro)"
+        "source": "PCS (1.Pro)",
+        "isItaly": true
     },
     {
         "id": "pcs-93",
@@ -2437,10 +2445,10 @@
             "Discovery+"
         ],
         "status": "Upcoming",
-        "isWomen": false,
+        "isWomen": true,
         "isUnder": false,
         "isMinor": false,
-        "isMenElite": true,
+        "isMenElite": false,
         "source": "PCS (1.1)"
     },
     {
@@ -2956,7 +2964,7 @@
         "name": "Paris-Roubaix Espoirs",
         "discipline": "road",
         "date": "2026-04-12",
-        "category": "1.2U",
+        "category": "Monument",
         "location": "TBD",
         "tv": [
             "Eurosport",
@@ -3144,9 +3152,9 @@
         ],
         "status": "Upcoming",
         "isWomen": false,
-        "isUnder": true,
+        "isUnder": false,
         "isMinor": true,
-        "isMenElite": false,
+        "isMenElite": true,
         "source": "PCS (1.2U)"
     },
     {
@@ -4200,7 +4208,7 @@
         "name": "Giro d'Italia Next Gen",
         "discipline": "road",
         "date": "2026-06-14",
-        "category": "2.2U",
+        "category": "GT",
         "location": "Italy",
         "tv": [
             "Eurosport",
@@ -4946,7 +4954,7 @@
         "name": "Tour de l'Avenir",
         "discipline": "road",
         "date": "2026-08-19",
-        "category": "2.2U",
+        "category": "GT",
         "location": "TBD",
         "tv": [
             "Eurosport",
@@ -5309,17 +5317,19 @@
         "discipline": "road",
         "date": "2026-09-09",
         "category": "1.1",
-        "location": "TBD",
+        "location": "Italy",
         "tv": [
             "Eurosport",
-            "Discovery+"
+            "Discovery+",
+            "RAI Sport"
         ],
         "status": "Upcoming",
         "isWomen": false,
         "isUnder": false,
         "isMinor": false,
         "isMenElite": true,
-        "source": "PCS (1.1)"
+        "source": "PCS (1.1)",
+        "isItaly": true
     },
     {
         "id": "pcs-294",
@@ -5488,7 +5498,7 @@
         "name": "Kampioenschap van Vlaanderen",
         "discipline": "road",
         "date": "2026-09-18",
-        "category": "1.1",
+        "category": "Monument",
         "location": "TBD",
         "tv": [
             "Eurosport",
@@ -5704,7 +5714,7 @@
         "name": "Il Lombardia Under 23",
         "discipline": "road",
         "date": "2026-10-03",
-        "category": "1.2U",
+        "category": "Monument",
         "location": "Italy",
         "tv": [
             "Eurosport",
@@ -5724,7 +5734,7 @@
         "name": "European Continental Championships ME - Road Race",
         "discipline": "road",
         "date": "2026-10-04",
-        "category": "CC",
+        "category": "Major",
         "location": "TBD",
         "tv": [
             "Eurosport",
@@ -5976,18 +5986,20 @@
         "name": "Strade Bianche Donne",
         "discipline": "road",
         "date": "2026-03-07",
-        "category": "1.WWT",
-        "location": "TBD",
+        "category": "Major",
+        "location": "Italy",
         "tv": [
             "Eurosport",
-            "Discovery+"
+            "Discovery+",
+            "RAI Sport"
         ],
         "status": "Upcoming",
         "isWomen": true,
         "isUnder": false,
         "isMinor": false,
         "isMenElite": false,
-        "source": "PCS (1.WWT)"
+        "source": "PCS (1.WWT)",
+        "isItaly": true
     },
     {
         "id": "pcs-331",
@@ -6012,7 +6024,7 @@
         "name": "Milano-Sanremo Donne",
         "discipline": "road",
         "date": "2026-03-21",
-        "category": "1.WWT",
+        "category": "Monument",
         "location": "Italy",
         "tv": [
             "Eurosport",
@@ -6068,7 +6080,7 @@
         "name": "Dwars door Vlaanderen / A travers la Flandre",
         "discipline": "road",
         "date": "2026-04-01",
-        "category": "1.WWT",
+        "category": "Monument",
         "location": "TBD",
         "tv": [
             "Eurosport",
@@ -6086,7 +6098,7 @@
         "name": "Ronde van Vlaanderen",
         "discipline": "road",
         "date": "2026-04-05",
-        "category": "1.WWT",
+        "category": "Monument",
         "location": "TBD",
         "tv": [
             "Eurosport",
@@ -6104,7 +6116,7 @@
         "name": "Paris-Roubaix Femmes Hauts-de-France",
         "discipline": "road",
         "date": "2026-04-12",
-        "category": "1.WWT",
+        "category": "Monument",
         "location": "TBD",
         "tv": [
             "Eurosport",
@@ -6122,7 +6134,7 @@
         "name": "Amstel Gold Race Ladies Edition",
         "discipline": "road",
         "date": "2026-04-19",
-        "category": "1.WWT",
+        "category": "Major",
         "location": "TBD",
         "tv": [
             "Eurosport",
@@ -6230,7 +6242,7 @@
         "name": "Giro d'Italia Women",
         "discipline": "road",
         "date": "2026-05-30",
-        "category": "2.WWT",
+        "category": "GT",
         "location": "Italy",
         "tv": [
             "Eurosport",
@@ -6268,7 +6280,7 @@
         "name": "Tour de Suisse Women",
         "discipline": "road",
         "date": "2026-06-17",
-        "category": "2.WWT",
+        "category": "Major",
         "location": "TBD",
         "tv": [
             "Eurosport",
@@ -6286,7 +6298,7 @@
         "name": "Tour de France Femmes avec Zwift",
         "discipline": "road",
         "date": "2026-08-01",
-        "category": "2.WWT",
+        "category": "GT",
         "location": "TBD",
         "tv": [
             "Eurosport",
@@ -6342,7 +6354,7 @@
         "name": "Tour de Romandie Féminin",
         "discipline": "road",
         "date": "2026-09-04",
-        "category": "2.WWT",
+        "category": "Major",
         "location": "TBD",
         "tv": [
             "Eurosport",
@@ -6630,7 +6642,7 @@
         "name": "Asian Continental Championships WE - ITT",
         "discipline": "road",
         "date": "2026-02-05",
-        "category": "CC",
+        "category": "Major",
         "location": "TBD",
         "tv": [
             "Eurosport",
@@ -6648,7 +6660,7 @@
         "name": "Asian Continental Championships WU - ITT",
         "discipline": "road",
         "date": "2026-02-05",
-        "category": "CC",
+        "category": "Major",
         "location": "TBD",
         "tv": [
             "Eurosport",
@@ -6666,7 +6678,7 @@
         "name": "Asian Continental Championships WE - Road Race",
         "discipline": "road",
         "date": "2026-02-08",
-        "category": "CC",
+        "category": "Major",
         "location": "TBD",
         "tv": [
             "Eurosport",
@@ -6704,7 +6716,7 @@
         "name": "Asian Continental Championships WU - Road Race",
         "discipline": "road",
         "date": "2026-02-10",
-        "category": "CC",
+        "category": "Major",
         "location": "TBD",
         "tv": [
             "Eurosport",
@@ -7732,7 +7744,7 @@
         "name": "Volta Ciclista a Catalunya Femenina",
         "discipline": "road",
         "date": "2026-06-19",
-        "category": "2.1",
+        "category": "Major",
         "location": "TBD",
         "tv": [
             "Eurosport",
@@ -7768,7 +7780,7 @@
         "name": "National Championships Switzerland WE - ITT",
         "discipline": "road",
         "date": "2026-06-25",
-        "category": "NC",
+        "category": "Major",
         "location": "TBD",
         "tv": [
             "Eurosport",
@@ -7786,7 +7798,7 @@
         "name": "National Championships Switzerland WE - Road Race",
         "discipline": "road",
         "date": "2026-06-27",
-        "category": "NC",
+        "category": "Major",
         "location": "TBD",
         "tv": [
             "Eurosport",
@@ -8113,17 +8125,19 @@
         "discipline": "road",
         "date": "2026-08-27",
         "category": "2.2",
-        "location": "TBD",
+        "location": "Italy",
         "tv": [
             "Eurosport",
-            "Discovery+"
+            "Discovery+",
+            "RAI Sport"
         ],
         "status": "Upcoming",
         "isWomen": true,
         "isUnder": false,
         "isMinor": true,
         "isMenElite": false,
-        "source": "PCS (2.2)"
+        "source": "PCS (2.2)",
+        "isItaly": true
     },
     {
         "id": "pcs-449",
@@ -8850,7 +8864,7 @@
         "name": "Asian Continental Championships ME - ITT",
         "discipline": "road",
         "date": "2026-02-06",
-        "category": "CC",
+        "category": "Major",
         "location": "TBD",
         "tv": [
             "Eurosport",
@@ -8868,7 +8882,7 @@
         "name": "Asian Continental Championships MU - ITT",
         "discipline": "road",
         "date": "2026-02-06",
-        "category": "CC",
+        "category": "Major",
         "location": "TBD",
         "tv": [
             "Eurosport",
@@ -8886,7 +8900,7 @@
         "name": "Asian Continental Championships - Mixed Relay TTT",
         "discipline": "road",
         "date": "2026-02-07",
-        "category": "CC",
+        "category": "Major",
         "location": "TBD",
         "tv": [
             "Eurosport",
@@ -8904,7 +8918,7 @@
         "name": "Asian Continental Championships JR - Mixed Relay TTT",
         "discipline": "road",
         "date": "2026-02-07",
-        "category": "CC",
+        "category": "Major",
         "location": "TBD",
         "tv": [
             "Eurosport",
@@ -8922,7 +8936,7 @@
         "name": "Asian Continental Championships MU - Road Race",
         "discipline": "road",
         "date": "2026-02-09",
-        "category": "CC",
+        "category": "Major",
         "location": "TBD",
         "tv": [
             "Eurosport",
@@ -8940,7 +8954,7 @@
         "name": "Asian Continental Championships ME - Road Race",
         "discipline": "road",
         "date": "2026-02-11",
-        "category": "CC",
+        "category": "Major",
         "location": "TBD",
         "tv": [
             "Eurosport",

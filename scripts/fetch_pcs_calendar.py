@@ -69,19 +69,30 @@ def fetch_pcs_calendar(year=2026):
             except:
                 iso_date = f"{year}-01-01"
 
-            is_women = "women" in race_name.lower() or "WWT" in category or "W.WT" in category or "W.Pro" in category or circuit_id in ["24", "16"]
-            is_under = "U23" in race_name or "(MU)" in race_name or "Under 23" in race_name
+            # Map to internal categories
+            internal_cat = None
+            low_name = race_name.lower()
+            if any(g in low_name for g in ["giro d'italia", "tour de france", "vuelta a espana", "vuelta ciclista a españa", "tour de l'avenir"]):
+                internal_cat = "GT"
+            elif any(m in low_name for m in ["sanremo", "vlaanderen", "flanderes", "roubaix", "liege-bastogne", "lombardia", "strade bianche", "world championship", "championships", "paris-nice", "tirreno", "catalunya", "romandie", "dauphine", "suisse", "amstel gold", "fleche wallonne"]):
+                if any(m in low_name for m in ["sanremo", "vlaanderen", "roubaix", "liege", "lombardia"]) and not is_under:
+                    internal_cat = "Monument"
+                else:
+                    internal_cat = "Major"
+
+            is_women = "women" in low_name or "donne" in low_name or "WWT" in category or "W.WT" in category or "W.Pro" in category or circuit_id in ["24", "16"]
+            is_under = "U23" in low_name or "(MU)" in low_name or "under 23" in low_name or "youth" in low_name
             
             is_pro_rank = "UWT" in category or "Pro" in category or "1.1" in category or "2.1" in category
             is_minor = "1.2" in category or "2.2" in category
-            is_men_elite = not is_women and not is_under and (is_pro_rank or is_minor)
+            is_men_elite = not is_women and not is_under and (is_pro_rank or is_minor or circuit_id == "1")
 
             race_obj = {
                 "id": f"pcs-{len(all_races)}",
                 "name": race_name,
                 "discipline": "road",
                 "date": iso_date,
-                "category": category,
+                "category": internal_cat or category,
                 "location": "TBD",
                 "tv": ["Eurosport", "Discovery+"],
                 "status": "Upcoming",
@@ -92,7 +103,9 @@ def fetch_pcs_calendar(year=2026):
                 "source": f"PCS ({category})"
             }
             
-            if any(it in race_name.lower() or it in race_url.lower() for it in ["italy", "italiano", "italiani", "lombardia", "sanremo", "tirreno", "adria", "ita"]):
+            # Improved Italian detection
+            italy_keywords = ["italy", "italiano", "italiani", "lombardia", "sanremo", "tirreno", "adria", "ita", "strade bianche", "laigueglia", "gran piemonte", "milano-torino", "toscana", "sicilia", "giro d'italia", "tricolore"]
+            if any(it in low_name or it in race_url.lower() for it in italy_keywords):
                  race_obj["isItaly"] = True
                  race_obj["location"] = "Italy"
                  if "RAI Sport" not in race_obj["tv"]: race_obj["tv"].append("RAI Sport")
